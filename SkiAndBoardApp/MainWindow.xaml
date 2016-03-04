@@ -1,7 +1,8 @@
 ﻿<Window x:Class="SkiAndBoardApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="SkiAndBoardApp" Height="957" Width="540">
+        Title="SkiAndBoardApp" Height="957" Width="540"
+        ResizeMode="CanMinimize">
     <Grid>
 
         <Image HorizontalAlignment="Left" Height="63" Margin="0,856,0,0" VerticalAlignment="Top" Width="532" Source="NavigationBar.png"/>
