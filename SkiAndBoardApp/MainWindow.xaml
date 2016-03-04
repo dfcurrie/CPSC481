@@ -9,8 +9,12 @@
         <Button x:Name="BackBtn" Content="" HorizontalAlignment="Left" Margin="81,856,0,0" VerticalAlignment="Top" Width="75" Height="61" Opacity="0"/>
         <Rectangle x:Name="StatusBarRect" Fill="Black" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="532"/>
         <Label x:Name="TimeLbl" Content="10:10 AM" HorizontalAlignment="Left" Margin="463,1,0,0" VerticalAlignment="Top" Width="59" Foreground="White" FontFamily="Sans Serif"/>
-        <Rectangle x:Name="ActionBarRect" Fill="#FF252525" HorizontalAlignment="Left" Height="72" Margin="0,24,0,0" Stroke="Black" VerticalAlignment="Top" Width="532"/>
+        <Rectangle x:Name="ActionBarRect" Fill="#FF252525" HorizontalAlignment="Left" Height="72" Margin="0,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="532"/>
         <Label x:Name="CurrentScreenLbl" Content="Ski And Board App" HorizontalAlignment="Left" Margin="70,42,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Sans Serif" FontSize="22"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,50,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,58,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,66,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>
+        <Button x:Name="MenuBtn" Content="Button" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="50" Height="50" Opacity="0"/>
 
     </Grid>
 </Window>
