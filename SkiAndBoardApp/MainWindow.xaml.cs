@@ -33,8 +33,14 @@ namespace SkiAndBoardApp {
 
         private void updateTime(object source, ElapsedEventArgs e) {
             this.Dispatcher.Invoke((Action)(() => {
-                            this.TimeLbl.Content = DateTime.Now.ToString("hh:mm tt");
+                this.TimeLbl.Content = DateTime.Now.ToString("hh:mm tt");
             }));
         }
+
+        private void AddTripBtn_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
+            this.Dispatcher.Invoke((Action)(() => {
+                this.TripList.Items.Add("Test Add Button");
+            }));
         }
     }
+}
