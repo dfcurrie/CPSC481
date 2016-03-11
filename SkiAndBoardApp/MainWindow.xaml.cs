@@ -21,6 +21,9 @@ namespace SkiAndBoardApp {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+        }
+
+        private void Window_loaded(object sender, RoutedEventArgs e) {
             initTime();
         }
 
@@ -37,10 +40,9 @@ namespace SkiAndBoardApp {
             }));
         }
 
-        private void AddTripBtn_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
-            this.Dispatcher.Invoke((Action)(() => {
-                this.TripList.Items.Add("Test Add Button");
-            }));
+        private void AddTripBtn_Click(object sender, RoutedEventArgs e) {
         }
+
+
     }
 }
