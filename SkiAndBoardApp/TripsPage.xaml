@@ -5,9 +5,9 @@
 
     <Grid Height="600">
         <ListBox x:Name="TripList" HorizontalAlignment="Left" Height="590" Margin="10,0,0,0" VerticalAlignment="Top" Width="500" FontFamily="Sans Serif" FontSize="22" BorderThickness="0">
-            <ListBoxItem Content="Whister Blackcomb - March 9, 2016"/>
-            <ListBoxItem Content="Big White - February 23, 2016"/>
-            <ListBoxItem Content="Mt. Baldy - February 10, 2016"/>
+            <ListBoxItem Content="Whister Blackcomb                           March 9, 2016"/>
+            <ListBoxItem Content="Big White                                    February 23, 2016"/>
+            <ListBoxItem Content="Mt. Baldy                                    February 10, 2016"/>
         </ListBox>
     </Grid>
 </Page>
