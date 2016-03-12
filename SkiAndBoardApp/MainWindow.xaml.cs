@@ -45,8 +45,8 @@ namespace SkiAndBoardApp {
         }
 
         private void MenuBtn_Click(object sender, RoutedEventArgs e) {
-            this.CurrentScreenLbl.Content = "Menu";
-            this.ActionBtn_Txt.Content = "";
+            //this.CurrentScreenLbl.Content = "Menu";
+            //this.ActionBtn_Txt.Content = "";
             this.MainFrame.Navigate(new Uri("MenuPage.xaml", UriKind.Relative));
         }
 

@@ -25,5 +25,21 @@ namespace SkiAndBoardApp {
         private void Trips_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
         }
+
+        private void Friends_DoubleClick(object sender, MouseButtonEventArgs e) {
+            NavigationService.Navigate(new Uri("FriendPage.xaml", UriKind.Relative));
+        }
+
+        private void Stats_DoubleClick(object sender, MouseButtonEventArgs e) {
+            NavigationService.Navigate(new Uri("StatisticsPage.xaml", UriKind.Relative));
+        }
+
+        private void Info_DoubleClick(object sender, MouseButtonEventArgs e) {
+            NavigationService.Navigate(new Uri("InfoPage.xaml", UriKind.Relative));
+        }
+
+        private void Deals_DoubleClick(object sender, MouseButtonEventArgs e) {
+            NavigationService.Navigate(new Uri("DealsPage.xaml", UriKind.Relative));
+        }
     }
 }

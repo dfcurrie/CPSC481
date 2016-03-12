@@ -15,3 +15,11 @@ C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\
 C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\TripsPage.g.cs
 C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\MenuPage.baml
 C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\MenuPage.g.cs
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\DealsPage.baml
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\FriendPage.baml
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPage.baml
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\StatisticsPage.baml
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\DealsPage.g.cs
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\FriendPage.g.cs
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPage.g.cs
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\StatisticsPage.g.cs
