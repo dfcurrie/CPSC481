@@ -21,7 +21,7 @@ namespace SkiAndBoardApp {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
-            MainFrame.Navigate(new TripsPage());
+            //MainFrame.Navigate(new TripsPage());
         }
 
         private void Window_loaded(object sender, RoutedEventArgs e) {

@@ -21,5 +21,9 @@ namespace SkiAndBoardApp {
         public MenuPage() {
             InitializeComponent();
         }
+
+        private void Trips_DoubleClick(object sender, MouseButtonEventArgs e) {
+            NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
+        }
     }
 }

@@ -17,9 +17,9 @@ namespace SkiAndBoardApp {
     /// <summary>
     /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class Page1 : Page {
-        public Page1() {
-
+    public partial class TripsPage : Page {
+        public TripsPage() {
+            
         }
 
     }
