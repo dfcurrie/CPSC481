@@ -41,11 +41,13 @@ namespace SkiAndBoardApp {
             }));
         }
 
-        private void AddTripBtn_Click(object sender, RoutedEventArgs e) {
+        private void ActionBtn_Click(object sender, RoutedEventArgs e) {
         }
 
         private void MenuBtn_Click(object sender, RoutedEventArgs e) {
-            this.MainFrame.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
+            this.CurrentScreenLbl.Content = "Menu";
+            this.ActionBtn_Txt.Content = "";
+            this.MainFrame.Navigate(new Uri("MenuPage.xaml", UriKind.Relative));
         }
 
 

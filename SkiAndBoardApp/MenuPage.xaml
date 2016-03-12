@@ -1,0 +1,15 @@
+﻿<Page x:Class="SkiAndBoardApp.MenuPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+    <Grid Height="600">
+        <ListBox x:Name="MenuList" HorizontalAlignment="Left" Height="590" Margin="10,0,0,0" VerticalAlignment="Top" Width="500" FontFamily="Sans Serif" FontSize="22" BorderThickness="0">
+            <ListBoxItem Content="My Trips"/>
+            <ListBoxItem Content="Friend Finder"/>
+            <ListBoxItem Content="My Stats"/>
+            <ListBoxItem Content="Hill Info"/>
+            <ListBoxItem Content="Deals"/>
+        </ListBox>
+    </Grid>
+    </Page>
