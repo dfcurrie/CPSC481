@@ -21,6 +21,7 @@ namespace SkiAndBoardApp {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+            MainFrame.Navigate(new TripsPage());
         }
 
         private void Window_loaded(object sender, RoutedEventArgs e) {
@@ -41,6 +42,10 @@ namespace SkiAndBoardApp {
         }
 
         private void AddTripBtn_Click(object sender, RoutedEventArgs e) {
+        }
+
+        private void MenuBtn_Click(object sender, RoutedEventArgs e) {
+            this.MainFrame.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
         }
 
 

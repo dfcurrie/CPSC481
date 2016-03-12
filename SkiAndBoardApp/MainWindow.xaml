@@ -13,7 +13,7 @@
         <Label x:Name="TimeLbl" Content="10:10 AM" HorizontalAlignment="Left" Margin="465,3,0,0" VerticalAlignment="Top" Width="59" Foreground="White" FontFamily="Sans Serif"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,50,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,59,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>
-        <Button x:Name="MenuBtn" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="50" Height="50" Opacity="0"/>
+        <Button x:Name="MenuBtn" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="50" Height="50" Opacity="0" Click="MenuBtn_Click"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,68,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>
         <Label x:Name="CurrentScreenLbl" Content="My Trips" HorizontalAlignment="Left" Margin="70,45,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Sans Serif" FontSize="22"/>
         <Button x:Name="AddTripBtn" HorizontalAlignment="Left" Margin="458,32,0,0" VerticalAlignment="Top" Width="66" Height="49" Opacity="0" Click="AddTripBtn_Click" />
