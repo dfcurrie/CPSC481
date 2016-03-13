@@ -45,6 +45,7 @@ namespace SkiAndBoardApp {
         private void ActionBtn_Click(object sender, RoutedEventArgs e) {
             switch ((String)CurrentScreenLbl.Content) {
                 case ("My Trips"):
+                    MainFrame.Navigate(new Uri("AddTrip.xaml", UriKind.Relative));
                     Console.WriteLine("Trips");
                     break;
                 case ("Friend Finder"):
