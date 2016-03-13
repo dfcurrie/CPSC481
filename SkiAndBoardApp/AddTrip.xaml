@@ -5,7 +5,25 @@
     <Grid Height="600" Width="590">
         <Label Content="Date:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <DatePicker Name="DateInput" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="227"/>
-        <ComboBox HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="227">
+            <ListBoxItem Content="Canada Olympic Park"/>
+            <ListBoxItem Content="Canmore Nordic Centre"/>
+            <ListBoxItem Content="Canyon Ski Area - Red Deer"/>
+            <ListBoxItem Content="Castle Mountain Resort - Pincher Creek"/>
+            <ListBoxItem Content="Drumheller Valley Ski Club"/>
+            <ListBoxItem Content="Edmonton Ski Club"/>
+            <ListBoxItem Content="Fairview Ski Hill - Fairview"/>
+            <ListBoxItem Content="Fortress Mountain Resort"/>
+            <ListBoxItem Content="Hidden Valley Ski Area"/>
+            <ListBoxItem Content="Innisfail Ski Hill - in Innisfail"/>
+            <ListBoxItem Content="Kinosoo Ridge Ski Resort - Cold Lake"/>
+            <ListBoxItem Content="Lake Louise Mountain Resort"/>
+            <ListBoxItem Content="Little Smokey Ski Area - Falher, Alberta"/>
+            <ListBoxItem Content="Marmot Basin - Jasper"/>
+            <ListBoxItem Content="Misery Mountain, Alberta - Peace River"/>
+            <ListBoxItem Content="Mount Norquay ski resort - Banff"/>
+            <ListBoxItem Content="Nakiska (1988 Winter Olympics)"/>
+        </ComboBox>
         <Label Content="Location:" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top"/>
 
     </Grid>
