@@ -35,18 +35,34 @@ namespace SkiAndBoardApp {
 
         private void Friends_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("FriendPage.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "Friend Finder";
         }
 
         private void Stats_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("StatisticsPage.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "Statistics";
         }
 
         private void Info_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("InfoPage.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "Info";
         }
 
         private void Deals_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("DealsPage.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "Deals";
         }
     }
 }
