@@ -52,6 +52,9 @@ namespace SkiAndBoardApp {
                     break;
                 case ("Friend Finder"):
                     Console.WriteLine("Friends");
+                    MainFrame.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
+                    CurrentScreenLbl.Content = "Add Friends";
+                    ActionBtn_Txt.Content = "";
                     break;
                 case ("Statistics"):
                     Console.WriteLine("Stats");

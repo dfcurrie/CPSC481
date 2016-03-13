@@ -15,23 +15,22 @@ using System.Windows.Shapes;
 
 namespace SkiAndBoardApp {
     /// <summary>
-    /// Interaction logic for AddTrip.xaml
+    /// Interaction logic for AddFriend.xaml
     /// </summary>
-    public partial class AddTrip : Page {
+    public partial class AddFriend : Page {
         Window mainWindow;
-        public AddTrip() {
+        public AddFriend() {
             InitializeComponent();
             this.mainWindow = Application.Current.MainWindow;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
-            Console.WriteLine("Add Trip");
-            NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
+            Console.WriteLine("Add Friend");
+            NavigationService.Navigate(new Uri("FriendPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
             action.Content = "+";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
-            screenName.Content = "My Trips";
-            Console.WriteLine(DateInput.Text + " - " + Location.Items[Location.SelectedIndex]);
+            screenName.Content = "Friend Finder";
         }
     }
 }

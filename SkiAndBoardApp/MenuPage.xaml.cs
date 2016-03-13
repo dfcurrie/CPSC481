@@ -44,7 +44,7 @@ namespace SkiAndBoardApp {
         private void Stats_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("StatisticsPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
-            action.Content = "+";
+            action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Statistics";
         }

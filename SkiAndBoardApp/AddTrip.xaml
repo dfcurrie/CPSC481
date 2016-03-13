@@ -2,10 +2,10 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-    <Grid Height="600" Width="590">
+    <Grid Height="900" Width="590">
         <Label Content="Date:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <DatePicker Name="DateInput" HorizontalAlignment="Left" Margin="31,36,0,0" VerticalAlignment="Top" Width="227"/>
-        <ComboBox HorizontalAlignment="Left" Margin="31,97,0,0" VerticalAlignment="Top" Width="227">
+        <ComboBox Name="Location" HorizontalAlignment="Left" Margin="31,97,0,0" VerticalAlignment="Top" Width="227">
             <ListBoxItem Content="Canada Olympic Park"/>
             <ListBoxItem Content="Canmore Nordic Centre"/>
             <ListBoxItem Content="Canyon Ski Area - Red Deer"/>

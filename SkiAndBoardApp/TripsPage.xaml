@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
-    <Grid Height="600">
-        <ListBox x:Name="TripList" HorizontalAlignment="Left" Height="590" Margin="10,0,0,0" VerticalAlignment="Top" Width="500" FontFamily="Sans Serif" FontSize="22" BorderThickness="0">
+    <Grid Height="900">
+        <ListBox x:Name="TripList" HorizontalAlignment="Left" Height="900" Margin="10,0,0,0" VerticalAlignment="Top" Width="500" FontFamily="Sans Serif" FontSize="22" BorderThickness="0">
             <ListBoxItem Content="Sunshine - March 12, 2016"/>
             <ListBoxItem Content="Whistler Blackcomb - March 9, 2016"/>
             <ListBoxItem Content="Big White - February 23, 2016"/>

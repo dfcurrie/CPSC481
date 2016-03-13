@@ -5,7 +5,7 @@
         ResizeMode="CanMinimize"
         Loaded="Window_loaded">
     <Grid>
-        <Frame Name="MainFrame" HorizontalAlignment="Stretch" Margin="0,30,2,145" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden" Source="/SkiAndBoardApp;component/TripsPage.xaml" />
+        <Frame Name="MainFrame" HorizontalAlignment="Stretch" Margin="0,102,2,77" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden" Source="/SkiAndBoardApp;component/TripsPage.xaml" />
         <Rectangle x:Name="ActionBarRect" Fill="#FF252525" HorizontalAlignment="Left" Height="72" Margin="0,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="532" />
         <Image HorizontalAlignment="Left" Height="63" Margin="0,856,0,0" VerticalAlignment="Top" Width="532" Source="NavigationBar.png"/>
         <Button x:Name="BackBtn" HorizontalAlignment="Left" Margin="81,856,0,0" VerticalAlignment="Top" Width="75" Height="61" Opacity="0"/>

@@ -3,7 +3,24 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
-    <Grid>
-        
+    <Grid Height="900" Width="590">
+        <Image VerticalAlignment="Top" Height ="300" Width="597" Source="sunshine_village_canada_ski_area_trail_map.jpg" Margin="0,0,-7,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="10,310,0,0" Stroke="Black" VerticalAlignment="Top" Width="505"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="10,415,0,0" Stroke="Black" VerticalAlignment="Top" Width="505"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="10,520,0,0" Stroke="Black" VerticalAlignment="Top" Width="505"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="10,630,0,0" VerticalAlignment="Top" Width="505" FontFamily="Sans Serif" FontSize="22">
+            <ListBoxItem Content="Rayce Rossum"/>
+            <ListBoxItem Content="LaVerne Woroschuk"/>
+            <ListBoxItem Content="David Currie"/>
+        </ListBox>
+        <Label Content="Number of Runs:" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Distance:" HorizontalAlignment="Left" Margin="190,310,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Max Speed:" HorizontalAlignment="Left" Margin="375,415,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Elevation:" HorizontalAlignment="Left" Margin="10,415,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Vertical:" HorizontalAlignment="Left" Margin="190,415,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Air Time:" HorizontalAlignment="Left" Margin="375,310,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Calories" HorizontalAlignment="Left" Margin="10,520,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Heart Rate:" HorizontalAlignment="Left" Margin="190,520,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
+        <Label Content="Time:" HorizontalAlignment="Left" Margin="375,520,0,0" VerticalAlignment="Top" Height="105" Width="140"/>
     </Grid>
 </Page>

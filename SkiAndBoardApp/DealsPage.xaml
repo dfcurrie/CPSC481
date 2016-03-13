@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
-    <Grid>
-        
+    <Grid Height="600" Width="590">
+        <Label Content="David please complete" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Page>

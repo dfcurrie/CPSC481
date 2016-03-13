@@ -56,6 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AddFriend.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AddTrip.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -76,6 +80,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="AddFriend.xaml.cs">
+      <DependentUpon>AddFriend.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddTrip.xaml.cs">
       <DependentUpon>AddTrip.xaml</DependentUpon>
     </Compile>
@@ -147,6 +154,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="NavigationBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="whistlerblackcomb_trailmap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sunshine_village_canada_ski_area_trail_map.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
