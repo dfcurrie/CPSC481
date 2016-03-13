@@ -18,12 +18,19 @@ namespace SkiAndBoardApp {
     /// Interaction logic for MenuPage.xaml
     /// </summary>
     public partial class MenuPage : Page {
+        Window mainWindow;
         public MenuPage() {
             InitializeComponent();
+            this.mainWindow = Application.Current.MainWindow;
         }
 
         private void Trips_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "My Trips";
+  
         }
 
         private void Friends_DoubleClick(object sender, MouseButtonEventArgs e) {

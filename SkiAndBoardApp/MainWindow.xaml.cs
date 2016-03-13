@@ -26,6 +26,7 @@ namespace SkiAndBoardApp {
 
         private void Window_loaded(object sender, RoutedEventArgs e) {
             initTime();
+            Application.Current.MainWindow = this;
         }
 
         private void initTime() {
@@ -45,8 +46,8 @@ namespace SkiAndBoardApp {
         }
 
         private void MenuBtn_Click(object sender, RoutedEventArgs e) {
-            //this.CurrentScreenLbl.Content = "Menu";
-            //this.ActionBtn_Txt.Content = "";
+            this.CurrentScreenLbl.Content = "Menu";
+            this.ActionBtn_Txt.Content = "";
             this.MainFrame.Navigate(new Uri("MenuPage.xaml", UriKind.Relative));
         }
 
