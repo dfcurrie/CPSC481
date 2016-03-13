@@ -43,6 +43,23 @@ namespace SkiAndBoardApp {
         }
 
         private void ActionBtn_Click(object sender, RoutedEventArgs e) {
+            switch ((String)CurrentScreenLbl.Content) {
+                case ("My Trips"):
+                    Console.WriteLine("Trips");
+                    break;
+                case ("Friend Finder"):
+                    Console.WriteLine("Friends");
+                    break;
+                case ("Statistics"):
+                    Console.WriteLine("Stats");
+                    break;
+                case ("Info"):
+                    Console.WriteLine("Info");
+                    break;
+                case ("Deals"):
+                    Console.WriteLine("Deals");
+                    break;
+            }
         }
 
         private void MenuBtn_Click(object sender, RoutedEventArgs e) {

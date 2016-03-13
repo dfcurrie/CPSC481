@@ -16,7 +16,7 @@
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,68,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>
         <Button x:Name="MenuBtn" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="50" Height="50" Opacity="0" Click="MenuBtn_Click"/>
         <Label x:Name="CurrentScreenLbl" Content="My Trips" HorizontalAlignment="Left" Margin="70,45,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Sans Serif" FontSize="22"/>
-        <Button x:Name="ActionBtn" HorizontalAlignment="Left" Margin="458,32,0,0" VerticalAlignment="Top" Width="66" Height="49" Opacity="0" Click="ActionBtn_Click" />
         <Label Name="ActionBtn_Txt" HorizontalAlignment="Left" Margin="465,27,0,0" Content="+" VerticalAlignment="Top" FontFamily="Sans Serif" FontSize="48" Foreground="White" Height="68" />
+        <Button x:Name="ActionBtn" HorizontalAlignment="Left" Margin="458,32,0,0" VerticalAlignment="Top" Width="66" Height="49" Opacity="0" Click="ActionBtn_Click" />
     </Grid>
 </Window>
