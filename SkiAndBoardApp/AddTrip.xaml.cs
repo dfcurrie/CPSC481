@@ -31,7 +31,7 @@ namespace SkiAndBoardApp {
             action.Content = "+";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "My Trips";
-            Console.WriteLine(DateInput.Text + " - " + Location.Items[Location.SelectedIndex]);
+            //Console.WriteLine(DateInput.Text + " - " + Location.Items[Location.SelectedIndex]);
         }
     }
 }

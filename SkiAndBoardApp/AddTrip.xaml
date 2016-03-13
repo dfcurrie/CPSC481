@@ -25,7 +25,7 @@
             <ListBoxItem Content="Nakiska (1988 Winter Olympics)"/>
         </ComboBox>
         <Label Content="Location:" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top"/>
-        <Button Content="Add Trip" HorizontalAlignment="Left" Margin="183,138,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Add Trip" HorizontalAlignment="Left" Margin="158,138,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Height="30"/>
 
     </Grid>
 </Page>
