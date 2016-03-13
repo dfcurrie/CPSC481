@@ -18,9 +18,19 @@ namespace SkiAndBoardApp {
     /// Interaction logic for AddTrip.xaml
     /// </summary>
     public partial class AddTrip : Page {
+        Window mainWindow;
         public AddTrip() {
             InitializeComponent();
-            //this.DateInput.
+            this.mainWindow = Application.Current.MainWindow;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e) {
+            Console.WriteLine("Add Trip");
+            NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "My Trips";
         }
     }
 }
