@@ -76,6 +76,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="InfoPageEmeg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InfoPageMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InfoPageRuns.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,6 +110,15 @@
     </Compile>
     <Compile Include="InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageEmeg.xaml.cs">
+      <DependentUpon>InfoPageEmeg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageMaps.xaml.cs">
+      <DependentUpon>InfoPageMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageRuns.xaml.cs">
+      <DependentUpon>InfoPageRuns.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -160,6 +181,30 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="sunshine_village_canada_ski_area_trail_map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="weatherwidget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="snowfallgraph.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="runslookout.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="GoatsEye.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MtStandish.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LookoutMt.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="telephone-orange-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Waypoint.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

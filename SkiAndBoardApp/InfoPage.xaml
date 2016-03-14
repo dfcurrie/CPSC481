@@ -3,8 +3,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
-    <Grid Height="600" Width="590">
-        <Label Content="David please complete" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+    <Grid Height="700" Width="505" Background="White">
+        <Button Content="Weather" HorizontalAlignment="Left" Margin="40,34,0,0" VerticalAlignment="Top" Width="103" Height="77" Background="#FFFF6C00" FontSize="18" BorderThickness="3" FontWeight="Bold"/>
+        <Button Content="Runs" HorizontalAlignment="Left" Margin="148,34,0,0" VerticalAlignment="Top" Width="103" Height="77" FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Trailmaps" HorizontalAlignment="Left" Margin="256,34,0,0" VerticalAlignment="Top" Width="103" Height="77" FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Emergency" HorizontalAlignment="Left" Margin="364,34,0,0" VerticalAlignment="Top" Width="103" Height="77" FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_2"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="40,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="20"><Run Language="en-ca" Text="Today's Snow Conditions"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="40,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" RenderTransformOrigin="0.493,0.536"><Run Language="en-ca" Text="Sunshine Village: "/><Run Foreground="#FF41B811" Language="en-ca" Text="Open"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="40,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="427" FontSize="16"><Run Language="en-ca" Text="Snow             Open  Trails       Open Lifts      Snow Depth"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="40,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409"><Run Language="en-ca" Text="Variable                 136/137                       12/12               Base: 165 cm"/><LineBreak/><Run Language="en-ca" Text="                                                                                          Summit: 170 cm "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="40,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="16"><Run Language="en-ca" Text="Recent Snowfall"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="305,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" FontSize="24"><Run Language="en-ca" Text="Forecast"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="172" Margin="254,436,0,0" VerticalAlignment="Top" Width="241" Source="weatherwidget.png"/>
+        <Image HorizontalAlignment="Left" Height="178" Margin="40,436,0,0" VerticalAlignment="Top" Width="228" Source="snowfallgraph.PNG"/>
+
 
     </Grid>
 </Page>

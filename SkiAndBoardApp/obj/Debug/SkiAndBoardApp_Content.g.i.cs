@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("navigationbar.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("waypoint.png")]
 
 

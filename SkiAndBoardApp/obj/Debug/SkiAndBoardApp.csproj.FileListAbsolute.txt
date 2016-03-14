@@ -56,3 +56,9 @@ C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoard
 C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\SkiAndBoardApp.g.resources
 C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\SkiAndBoardApp.Properties.Resources.resources
 C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\SkiAndBoardApp.csproj.GenerateResource.Cache
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRuns.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRuns.g.cs
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageEmeg.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMaps.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageEmeg.g.cs
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMaps.g.cs

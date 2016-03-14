@@ -17,9 +17,28 @@ namespace SkiAndBoardApp {
     /// <summary>
     /// Interaction logic for InfoPage.xaml
     /// </summary>
+    /// 
+
     public partial class InfoPage : Page {
+        Window mainWindow;
         public InfoPage() {
             InitializeComponent();
+            this.mainWindow = Application.Current.MainWindow;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("InfoPageRuns.xaml", UriKind.Relative));
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("InfoPageMaps.xaml", UriKind.Relative));
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("InfoPageEmeg.xaml", UriKind.Relative));
         }
     }
 }
