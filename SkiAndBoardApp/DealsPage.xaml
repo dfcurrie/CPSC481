@@ -3,8 +3,31 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
-    <Grid Height="600" Width="590">
-        <Label Content="David please complete" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+    <Grid Height="700" Width="505" Background="White">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" >
+            <StackPanel HorizontalAlignment="Left" Height="880" Margin="10,10,0,0" VerticalAlignment="Top" Width="475" >
+                <Button Height="200" Margin="10">
+                    <TextBlock Text="15% off of Lift Ticket"
+                        TextWrapping="Wrap" FontSize="36"/>
+                </Button>
+                
+                <Button Height="200" Margin="10">
+                    <TextBlock Text="$17 Burger and Beer at the Mid Mountain Lounge"
+                        TextWrapping="Wrap" FontSize="36"/>
+                </Button>
+                
+                <Button Height="200" Margin="10">
+                    <TextBlock Text="Waxing and edge sharpening $10"
+                        TextWrapping="Wrap" FontSize="36"/>
+                </Button>
+
+                <Button Height="200" Margin="10">
+                    <TextBlock Text="20% off rentals"
+               TextWrapping="Wrap" FontSize="36"/>
+                </Button>
+                
+            </StackPanel>
+        </ScrollViewer>
 
     </Grid>
 </Page>
