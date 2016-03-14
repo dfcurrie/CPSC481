@@ -4,15 +4,22 @@
 exe
 C#
 .cs
-C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\
 SkiAndBoardApp
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\App.xaml
 12978595530
 
 20896265353
+=======
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\App.xaml
+9992341008
+
+17-935081506
+>>>>>>> a15610d9695737959bd17c35b9c2aa659384af46
 12-1401562060
 AddFriend.xaml;AddTrip.xaml;DealsPage.xaml;FriendPage.xaml;InfoPage.xaml;InfoPageEmeg.xaml;InfoPageMaps.xaml;InfoPageRuns.xaml;MainWindow.xaml;MenuPage.xaml;StatisticsPage.xaml;TripsPage.xaml;
 
