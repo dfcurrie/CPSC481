@@ -14,9 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SkiAndBoardApp {
-    /// <summary>
-    /// Interaction logic for MenuPage.xaml
-    /// </summary>
     public partial class MenuPage : Page {
         Window mainWindow;
         public MenuPage() {
@@ -41,7 +38,7 @@ namespace SkiAndBoardApp {
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
             action.Content = "+";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
-            screenName.Content = "My Trips";
+            screenName.Content = "My Trips: " + curTripObject.curTrip;
   
         }
 

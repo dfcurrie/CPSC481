@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿SkiAndBoardApp
 
 
@@ -18,3 +19,25 @@ AddFriend.xaml;AddTrip.xaml;DealsPage.xaml;FriendPage.xaml;InfoPageRunsMtStand.x
 
 False
 
+=======
+﻿SkiAndBoardApp
+
+
+exe
+C#
+.cs
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\
+SkiAndBoardApp
+none
+false
+DEBUG;TRACE
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\App.xaml
+172113862450
+
+23-1604775526
+12-1401562060
+AddFriend.xaml;AddTrip.xaml;DealsPage.xaml;FriendPage.xaml;InfoPageRunsMtStand.xaml;InfoPageRunsGoatsEye.xaml;WelcomePage.xaml;InfoPage.xaml;InfoPageEmeg.xaml;InfoPageMapsGoatsEye.xaml;InfoPageMapsMtStand.xaml;InfoPageMaps.xaml;InfoPageRuns.xaml;MainWindow.xaml;MenuPage.xaml;StatisticsPage.xaml;TripsPage.xaml;
+
+False
+
+>>>>>>> 138509b0ed2f0b7a37d6d7cdf46c9199196655bf

@@ -17,12 +17,15 @@ namespace SkiAndBoardApp {
     public partial class TripsPage : Page {
         Window mainWindow;
         public TripsPage() {
-            this.mainWindow = Application.Current.MainWindow;
+            mainWindow = Application.Current.MainWindow;
             DataContext = mainWindow.DataContext;
         }
 
         private void TripListBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-            Console.WriteLine(TripListBox.SelectedItem.ToString());
+            curTripObject.curTrip = TripListBox.SelectedItem.ToString();
+            Console.WriteLine("Trip Selected: " + curTripObject.curTrip);
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "My Trips: " + curTripObject.curTrip;
         }
 
     }

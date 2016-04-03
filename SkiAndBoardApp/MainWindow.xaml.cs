@@ -18,6 +18,7 @@ using System.Collections;
 namespace SkiAndBoardApp {
     public partial class MainWindow : Window {
         public TripObject trips = new TripObject();
+
         public MainWindow() {
             InitializeComponent();
             DataContext = new TripObject();
@@ -42,28 +43,30 @@ namespace SkiAndBoardApp {
         }
 
         private void ActionBtn_Click(object sender, RoutedEventArgs e) {
-            switch ((String)CurrentScreenLbl.Content) {
-                case ("My Trips"):
-                    MainFrame.Navigate(new Uri("AddTrip.xaml", UriKind.Relative));
-                    CurrentScreenLbl.Content = "Add Trip";
-                    ActionBtn_Txt.Content = "";
-                    Console.WriteLine("Trips");
-                    break;
-                case ("Friend Finder"):
-                    Console.WriteLine("Friends");
-                    MainFrame.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
-                    CurrentScreenLbl.Content = "Add Friends";
-                    ActionBtn_Txt.Content = "";
-                    break;
-                case ("Statistics"):
-                    Console.WriteLine("Stats");
-                    break;
-                case ("Info"):
-                    Console.WriteLine("Info");
-                    break;
-                case ("Deals"):
-                    Console.WriteLine("Deals");
-                    break;
+
+            if (CurrentScreenLbl.Content.ToString().Contains("My Trip")) {
+                MainFrame.Navigate(new Uri("AddTrip.xaml", UriKind.Relative));
+                CurrentScreenLbl.Content = "Add Trip";
+                ActionBtn_Txt.Content = "";
+                Console.WriteLine("Add Trip");
+            } else {
+                switch ((String)CurrentScreenLbl.Content) {
+                    case ("Friend Finder"):
+                        Console.WriteLine("Friends");
+                        MainFrame.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
+                        CurrentScreenLbl.Content = "Add Friends";
+                        ActionBtn_Txt.Content = "";
+                        break;
+                    case ("Statistics"):
+                        //Console.WriteLine("Stats");
+                        break;
+                    case ("Info"):
+                        //Console.WriteLine("Info");
+                        break;
+                    case ("Deals"):
+                        //Console.WriteLine("Deals");
+                        break;
+                }
             }
         }
 
