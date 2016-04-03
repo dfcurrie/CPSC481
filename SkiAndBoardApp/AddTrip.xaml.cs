@@ -34,5 +34,9 @@ namespace SkiAndBoardApp {
             //DateInput.Text = DateTime.Today.ToShortDateString("dd/MM/yyyy");
           
         }
+
+        private void Location_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            AddTripBtn.IsEnabled=true;
+        }
     }
 }

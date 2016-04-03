@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
     <Grid Height="700" Width="540">
-        <ComboBox Name="Location" HorizontalAlignment="Center" Width="410" Height="32" VerticalAlignment="Top" Margin="60,71,70,0" IsDropDownOpen="True" FontSize="20">
+        <ComboBox Name="Location" HorizontalAlignment="Center" Width="410" Height="32" VerticalAlignment="Top" Margin="60,71,70,0" IsDropDownOpen="True" FontSize="20" SelectionChanged="Location_SelectionChanged">
             <ListBoxItem Content="Canada Olympic Park"/>
             <ListBoxItem Content="Canmore Nordic Centre"/>
             <ListBoxItem Content="Canyon Ski Area - Red Deer"/>
@@ -23,7 +23,7 @@
             <ListBoxItem Content="Nakiska (1988 Winter Olympics)"/>
         </ComboBox>
         <Label Content="Location:" HorizontalAlignment="Left" Margin="60,29,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.621,-0.5" FontSize="20"/>
-        <Button Content="Add Trip" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="150" Click="Button_Click" Height="60"/>
+        <Button Name="AddTripBtn" Content="Add Trip" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="150" Click="Button_Click" Height="60" FontSize="20" IsEnabled="False"/>
 
     </Grid>
 </Page>
