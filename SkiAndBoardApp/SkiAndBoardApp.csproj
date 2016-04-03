@@ -80,6 +80,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="WelcomeInfoCop.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WelcomeInfoSun.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WelcomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -134,6 +142,12 @@
     </Compile>
     <Compile Include="InfoPageRunsGoatsEye.xaml.cs">
       <DependentUpon>InfoPageRunsGoatsEye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeInfoCop.xaml.cs">
+      <DependentUpon>WelcomeInfoCop.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeInfoSun.xaml.cs">
+      <DependentUpon>WelcomeInfoSun.xaml</DependentUpon>
     </Compile>
     <Compile Include="WelcomePage.xaml.cs">
       <DependentUpon>WelcomePage.xaml</DependentUpon>
