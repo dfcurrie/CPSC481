@@ -29,14 +29,14 @@ namespace SkiAndBoardApp {
             String str = tripStr[1].Substring(1);
             str = str + " - " + DateTime.Now.ToShortDateString();
             tripObject.tripList.Insert(0, str);
-            
+            curTripObject.curTrip = str;
 
             Console.WriteLine("Add Trip: " + str);
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
             action.Content = "+";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
-            screenName.Content = "My Trips";    
+            screenName.Content = "My Trips: " + curTripObject.curTrip;    
         }
 
         private void Location_SelectionChanged(object sender, SelectionChangedEventArgs e) {
