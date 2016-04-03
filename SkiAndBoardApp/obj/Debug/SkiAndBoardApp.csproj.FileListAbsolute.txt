@@ -97,3 +97,9 @@ C:\Users\rerossum\Documents\visual studio 2013\Projects\CPSC481\SkiAndBoardApp\o
 C:\Users\rerossum\Documents\visual studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\SkiAndBoardApp.g.resources
 C:\Users\rerossum\Documents\visual studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\SkiAndBoardApp.Properties.Resources.resources
 C:\Users\rerossum\Documents\visual studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\SkiAndBoardApp.csproj.GenerateResource.Cache
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageEmeg.baml
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMaps.baml
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRuns.baml
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageEmeg.g.cs
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMaps.g.cs
+C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRuns.g.cs
