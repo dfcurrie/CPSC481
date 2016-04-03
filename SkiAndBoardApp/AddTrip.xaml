@@ -6,24 +6,24 @@
         <ComboBox Name="Location" HorizontalAlignment="Center" Width="410" Height="32" VerticalAlignment="Top" Margin="60,71,70,0" IsDropDownOpen="True" FontSize="20" SelectionChanged="Location_SelectionChanged">
             <ListBoxItem Content="Canada Olympic Park"/>
             <ListBoxItem Content="Canmore Nordic Centre"/>
-            <ListBoxItem Content="Canyon Ski Area - Red Deer"/>
-            <ListBoxItem Content="Castle Mountain Resort - Pincher Creek"/>
+            <ListBoxItem Content="Canyon Ski Area"/>
+            <ListBoxItem Content="Castle Mountain Resort"/>
             <ListBoxItem Content="Drumheller Valley Ski Club"/>
             <ListBoxItem Content="Edmonton Ski Club"/>
-            <ListBoxItem Content="Fairview Ski Hill - Fairview"/>
+            <ListBoxItem Content="Fairview Ski Hill"/>
             <ListBoxItem Content="Fortress Mountain Resort"/>
             <ListBoxItem Content="Hidden Valley Ski Area"/>
-            <ListBoxItem Content="Innisfail Ski Hill - in Innisfail"/>
-            <ListBoxItem Content="Kinosoo Ridge Ski Resort - Cold Lake"/>
+            <ListBoxItem Content="Innisfail Ski Hill"/>
+            <ListBoxItem Content="Kinosoo Ridge Ski Resort"/>
             <ListBoxItem Content="Lake Louise Mountain Resort"/>
-            <ListBoxItem Content="Little Smokey Ski Area - Falher, Alberta"/>
-            <ListBoxItem Content="Marmot Basin - Jasper"/>
-            <ListBoxItem Content="Misery Mountain, Alberta - Peace River"/>
-            <ListBoxItem Content="Mount Norquay ski resort - Banff"/>
-            <ListBoxItem Content="Nakiska (1988 Winter Olympics)"/>
+            <ListBoxItem Content="Little Smokey Ski Area"/>
+            <ListBoxItem Content="Marmot Basin"/>
+            <ListBoxItem Content="Misery Mountain"/>
+            <ListBoxItem Content="Mount Norquay Ski Resort"/>
+            <ListBoxItem Content="Nakiska"/>
         </ComboBox>
         <Label Content="Location:" HorizontalAlignment="Left" Margin="60,29,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.621,-0.5" FontSize="20"/>
-        <Button Name="AddTripBtn" Content="Add Trip" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="150" Click="Button_Click" Height="60" FontSize="20" IsEnabled="False"/>
+        <Button Name="AddTripBtn" Content="Add Trip" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="150" Click="Button_Click" Height="60" FontSize="20" IsEnabled="False" Margin="0,0,0,20"/>
 
     </Grid>
 </Page>
