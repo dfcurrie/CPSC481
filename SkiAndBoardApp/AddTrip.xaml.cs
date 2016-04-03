@@ -32,6 +32,7 @@ namespace SkiAndBoardApp {
             String[] tripStr = Location.SelectedItem.ToString().Split(splitChars);
             Console.WriteLine(tripStr[1]);
             String str = tripStr[1].Substring(1);
+            str = str + " - " + DateTime.Now.ToShortDateString();
             tripObject.tripList.Add(str);
 
             Console.WriteLine("Add Trip");
