@@ -8,7 +8,7 @@
         <Frame Name="MainFrame" HorizontalAlignment="Stretch" Margin="0,102,2,77" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden" Source="/SkiAndBoardApp;component/TripsPage.xaml" />
         <Rectangle x:Name="ActionBarRect" Fill="#FF252525" HorizontalAlignment="Left" Height="72" Margin="0,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="532" />
         <Image HorizontalAlignment="Left" Height="63" Margin="0,856,0,0" VerticalAlignment="Top" Width="532" Source="NavigationBar.png"/>
-        <Button x:Name="BackBtn" HorizontalAlignment="Left" Margin="81,856,0,0" VerticalAlignment="Top" Width="75" Height="61" Opacity="0"/>
+        <Button x:Name="BackBtn" HorizontalAlignment="Left" Margin="81,856,0,0" VerticalAlignment="Top" Width="75" Height="61" Opacity="0" Click="BackBtn_Click"/>
         <Rectangle x:Name="StatusBarRect" Fill="Black" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="532"/>
         <Label x:Name="TimeLbl" Content="10:10 AM" HorizontalAlignment="Left" Margin="465,3,0,0" VerticalAlignment="Top" Width="59" Foreground="White" FontFamily="Sans Serif"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="20,50,0,0" Stroke="White" VerticalAlignment="Top" Width="30"/>

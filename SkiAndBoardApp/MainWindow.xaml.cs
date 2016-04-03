@@ -61,11 +61,9 @@ namespace SkiAndBoardApp {
                     break;
                 case ("Info"):
                     Console.WriteLine("Info");
-                    ActionBtn_Txt.Content = "";
                     break;
                 case ("Deals"):
                     Console.WriteLine("Deals");
-                    ActionBtn_Txt.Content = "";
                     break;
             }
         }
@@ -74,6 +72,12 @@ namespace SkiAndBoardApp {
             this.CurrentScreenLbl.Content = "Menu";
             this.ActionBtn_Txt.Content = "";
             this.MainFrame.Navigate(new Uri("MenuPage.xaml", UriKind.Relative));
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e) {
+            if (this.MainFrame.NavigationService.CanGoBack) {
+                this.MainFrame.NavigationService.GoBack();
+            }
         }
 
 
