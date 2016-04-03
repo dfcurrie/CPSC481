@@ -22,10 +22,30 @@ namespace SkiAndBoardApp {
     public partial class WelcomePage : Page 
     {
         Window mainWindow;
+        WelcomeInfoSun page1 = new WelcomeInfoSun();
+        WelcomeInfoCop page2 = new WelcomeInfoCop();
+
         public WelcomePage() {
             InitializeComponent();
             this.mainWindow = Application.Current.MainWindow;
         }
+
+        private void SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBoxItem cbi = ((sender as ComboBox).SelectedItem as ComboBoxItem);
+            if (cbi.Content.ToString() == "Sunshine")
+            {
+                stackPanel1.Children.Clear();
+                stackPanel1.Children.Add(page1);
+            }
+            else if (cbi.Content.ToString() == "Canada Olympic Park")
+            {
+                stackPanel1.Children.Clear();
+                stackPanel1.Children.Add(page2);
+            }
+
+        }
+
 
 
     }

@@ -21,6 +21,18 @@ namespace SkiAndBoardApp {
             this.mainWindow = Application.Current.MainWindow;
         }
 
+        private void Welcome_DoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("WelcomePage.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "Welcome";
+
+        }
+
+
+
         private void Trips_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
