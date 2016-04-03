@@ -107,3 +107,9 @@ C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoard
 C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMapsMtStand.baml
 C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMapsGoatsEye.g.cs
 C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMapsMtStand.g.cs
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\WelcomePage.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\WelcomePage.g.cs
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRunsMtStand.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRunsGoatsEye.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRunsMtStand.g.cs
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRunsGoatsEye.g.cs
