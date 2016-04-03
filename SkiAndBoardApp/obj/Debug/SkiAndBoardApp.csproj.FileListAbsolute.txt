@@ -103,3 +103,7 @@ C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\
 C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageEmeg.g.cs
 C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMaps.g.cs
 C:\Users\Rayce\Documents\Visual Studio 2013\Projects\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageRuns.g.cs
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMapsGoatsEye.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMapsMtStand.baml
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMapsGoatsEye.g.cs
+C:\Users\David\Documents\University\CPSC 481\Portfolio 2\App\CPSC481\SkiAndBoardApp\obj\Debug\InfoPageMapsMtStand.g.cs

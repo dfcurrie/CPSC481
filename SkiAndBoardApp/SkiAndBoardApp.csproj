@@ -80,6 +80,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="InfoPageMapsGoatsEye.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InfoPageMapsMtStand.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="InfoPageMaps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -113,6 +121,12 @@
     </Compile>
     <Compile Include="InfoPageEmeg.xaml.cs">
       <DependentUpon>InfoPageEmeg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageMapsGoatsEye.xaml.cs">
+      <DependentUpon>InfoPageMapsGoatsEye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageMapsMtStand.xaml.cs">
+      <DependentUpon>InfoPageMapsMtStand.xaml</DependentUpon>
     </Compile>
     <Compile Include="InfoPageMaps.xaml.cs">
       <DependentUpon>InfoPageMaps.xaml</DependentUpon>

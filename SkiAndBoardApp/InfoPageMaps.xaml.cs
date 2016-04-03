@@ -42,5 +42,15 @@ namespace SkiAndBoardApp
             NavigationService.Navigate(new Uri("InfoPageEmeg.xaml", UriKind.Relative));
         }
 
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("InfoPageMapsGoatsEye.xaml", UriKind.Relative));
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("InfoPageMapsMtStand.xaml", UriKind.Relative));
+        }
+
     }
 }
