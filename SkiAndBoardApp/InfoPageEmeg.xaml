@@ -4,12 +4,12 @@
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
     <Grid Height="700" Width="505" Background="White">
-        <Button Content="Weather" HorizontalAlignment="Left" Margin="40,34,0,0" VerticalAlignment="Top" Width="103" Height="77" FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click"/>
-        <Button Content="Runs" HorizontalAlignment="Left" Margin="148,34,0,0" VerticalAlignment="Top" Width="103" Height="77"  FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_1"/>
-        <Button Content="Trailmaps" HorizontalAlignment="Left" Margin="256,34,0,0" VerticalAlignment="Top" Width="103" Height="77"  FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_2"/>
+        <Button Content="Weather" HorizontalAlignment="Left" Margin="40,34,0,0" VerticalAlignment="Top" Width="103" Height="77" FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click" Background="#FFFFB008"/>
+        <Button Content="Runs" HorizontalAlignment="Left" Margin="148,34,0,0" VerticalAlignment="Top" Width="103" Height="77"  FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_1" Background="#FFFFB008"/>
+        <Button Content="Trailmaps" HorizontalAlignment="Left" Margin="256,34,0,0" VerticalAlignment="Top" Width="103" Height="77"  FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_2" Background="#FFFFB008"/>
         <Button Content="Emergency" HorizontalAlignment="Left" Margin="364,34,0,0" VerticalAlignment="Top" Width="103" Height="77" Background="#FFFF6C00" FontSize="18" BorderThickness="3" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Height="44" Margin="40,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="36"><Run Language="en-ca" Text="Emergency"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="44" Margin="40,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="20"><Run Language="en-ca" Text="In the case of a emergency please call Ski Patrol"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="40,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="36" FontWeight="Bold" TextDecorations="Underline"><Run Language="en-ca" Text="Emergency"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="40,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="20"><Run Language="en-ca" Text="In the case of a emergency, please call Ski Patrol"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="55" Margin="159,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" FontFamily="Segoe UI Black" Foreground="#FFFF5500" TextDecorations="Underline" FontSize="36"><Run Language="en-ca" Text="(403) 762-6515"/></TextBlock>
         <Image HorizontalAlignment="Left" Height="100" Margin="54,263,0,0" VerticalAlignment="Top" Width="100" Source="telephone-orange-md.png"/>
         <TextBlock HorizontalAlignment="Left" Height="73" Margin="107,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" Foreground="Black" FontSize="22"><Run Language="en-ca" Text="Or set waypoint to your location"/></TextBlock>

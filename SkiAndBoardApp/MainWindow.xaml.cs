@@ -61,9 +61,11 @@ namespace SkiAndBoardApp {
                     break;
                 case ("Info"):
                     Console.WriteLine("Info");
+                    ActionBtn_Txt.Content = "";
                     break;
                 case ("Deals"):
                     Console.WriteLine("Deals");
+                    ActionBtn_Txt.Content = "";
                     break;
             }
         }

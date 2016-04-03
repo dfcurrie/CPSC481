@@ -52,7 +52,7 @@ namespace SkiAndBoardApp {
         private void Info_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("InfoPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
-            action.Content = "+";
+            action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Info";
         }
@@ -60,7 +60,7 @@ namespace SkiAndBoardApp {
         private void Deals_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("DealsPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
-            action.Content = "+";
+            action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Deals";
         }

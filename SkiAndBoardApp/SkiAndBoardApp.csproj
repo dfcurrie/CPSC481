@@ -72,6 +72,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="InfoPageRunsMtStand.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InfoPageRunsGoatsEye.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WelcomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="InfoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -79,6 +91,14 @@
     <Page Include="InfoPageEmeg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InfoPageMapsGoatsEye.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InfoPageMapsMtStand.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="InfoPageMaps.xaml">
       <SubType>Designer</SubType>
@@ -108,11 +128,26 @@
     <Compile Include="FriendPage.xaml.cs">
       <DependentUpon>FriendPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InfoPageRunsMtStand.xaml.cs">
+      <DependentUpon>InfoPageRunsMtStand.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageRunsGoatsEye.xaml.cs">
+      <DependentUpon>InfoPageRunsGoatsEye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="InfoPageEmeg.xaml.cs">
       <DependentUpon>InfoPageEmeg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageMapsGoatsEye.xaml.cs">
+      <DependentUpon>InfoPageMapsGoatsEye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPageMapsMtStand.xaml.cs">
+      <DependentUpon>InfoPageMapsMtStand.xaml</DependentUpon>
     </Compile>
     <Compile Include="InfoPageMaps.xaml.cs">
       <DependentUpon>InfoPageMaps.xaml</DependentUpon>
@@ -205,6 +240,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Waypoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Runs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="RunsGoats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="RunsGoatsMtStand.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
