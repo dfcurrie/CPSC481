@@ -8,9 +8,9 @@ using System.Collections.ObjectModel;
 public class TripObject {
     public TripObject() {
         tripList = new ObservableCollection<string>();
-        tripList.Add("Test1");
-        tripList.Add("Test2");
-        tripList.Add("Test3");
+        tripList.Add("Canada Olympic Park - 3/10/2016");
+        tripList.Add("Sunshine - 1/15/2016");
+        tripList.Add("Edmonton Ski Club - 12/16/2015");
     }
 
     public ObservableCollection<string> tripList { get; set; }

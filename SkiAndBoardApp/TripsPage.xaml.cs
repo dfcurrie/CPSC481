@@ -21,8 +21,8 @@ namespace SkiAndBoardApp {
             DataContext = mainWindow.DataContext;
         }
 
-        private void ListBoxItem_Selected(object sender, RoutedEventArgs e) {
-
+        private void TripListBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            Console.WriteLine(TripListBox.SelectedItem.ToString());
         }
 
     }

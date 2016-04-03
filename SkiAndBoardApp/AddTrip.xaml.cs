@@ -14,9 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SkiAndBoardApp {
-    /// <summary>
-    /// Interaction logic for AddTrip.xaml
-    /// </summary>
     public partial class AddTrip : Page {
         Window mainWindow;
         public AddTrip() {
@@ -27,13 +24,11 @@ namespace SkiAndBoardApp {
 
         private void Button_Click(object sender, RoutedEventArgs e) {
             var tripObject = DataContext as TripObject;
-            Console.WriteLine(Location.SelectedItem.ToString());
             char[] splitChars = { ':' };
             String[] tripStr = Location.SelectedItem.ToString().Split(splitChars);
-            Console.WriteLine(tripStr[1]);
             String str = tripStr[1].Substring(1);
             str = str + " - " + DateTime.Now.ToShortDateString();
-            tripObject.tripList.Add(str);
+            tripObject.tripList.Insert(0, str);
 
             Console.WriteLine("Add Trip");
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
