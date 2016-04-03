@@ -18,6 +18,7 @@ using System.Collections;
 namespace SkiAndBoardApp {
     public partial class MainWindow : Window {
         public TripObject trips = new TripObject();
+
         public MainWindow() {
             InitializeComponent();
             DataContext = new TripObject();
@@ -47,7 +48,7 @@ namespace SkiAndBoardApp {
                     MainFrame.Navigate(new Uri("AddTrip.xaml", UriKind.Relative));
                     CurrentScreenLbl.Content = "Add Trip";
                     ActionBtn_Txt.Content = "";
-                    Console.WriteLine("Trips");
+                    Console.WriteLine("Add Trip");
                     break;
                 case ("Friend Finder"):
                     Console.WriteLine("Friends");
@@ -56,13 +57,13 @@ namespace SkiAndBoardApp {
                     ActionBtn_Txt.Content = "";
                     break;
                 case ("Statistics"):
-                    Console.WriteLine("Stats");
+                    //Console.WriteLine("Stats");
                     break;
                 case ("Info"):
-                    Console.WriteLine("Info");
+                    //Console.WriteLine("Info");
                     break;
                 case ("Deals"):
-                    Console.WriteLine("Deals");
+                    //Console.WriteLine("Deals");
                     break;
             }
         }
