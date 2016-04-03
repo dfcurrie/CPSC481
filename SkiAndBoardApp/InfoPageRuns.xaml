@@ -8,11 +8,11 @@
         <Button Content="Runs" HorizontalAlignment="Left" Margin="148,34,0,0" VerticalAlignment="Top" Width="103" Height="77" Background="#FFFF6C00" FontSize="18" BorderThickness="3" FontWeight="Bold"/>
         <Button Content="Trailmaps" HorizontalAlignment="Left" Margin="256,34,0,0" VerticalAlignment="Top" Width="103" Height="77" FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_1" Background="#FFFFB008"/>
         <Button Content="Emergency" HorizontalAlignment="Left" Margin="364,34,0,0" VerticalAlignment="Top" Width="103" Height="77" FontSize="18" BorderThickness="3" FontWeight="Bold" Click="Button_Click_2" Background="#FFFFB008"/>
-        <TextBlock HorizontalAlignment="Left" Height="44" Margin="40,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="36"><Run Language="en-ca" Text="Runs"/></TextBlock>
-        <Button Content="Lookout Mt" HorizontalAlignment="Left" Height="60" Margin="81,213,0,0" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" Background="#FFFF7500"/>
-        <Button Content="Goat's Eye Mt" HorizontalAlignment="Left" Height="60" Margin="205,213,0,0" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" Background="#FFFFB008" Click="Button_Click_3"/>
-        <Button Content="Mount Standish" HorizontalAlignment="Left" Height="60" Margin="332,213,0,0" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" Background="#FFFFB008" Click="Button_Click_4"/>
-        <Image HorizontalAlignment="Left" Height="379" Margin="81,292,0,0" VerticalAlignment="Top" Width="349" Source="Runs.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="40,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="36" FontWeight="Bold" TextDecorations="Underline"><Run Language="en-ca" Text="Runs"/></TextBlock>
+        <Button Content="Lookout Mt" HorizontalAlignment="Left" Height="85" Margin="21,213,0,0" VerticalAlignment="Top" Width="145" BorderThickness="4" FontWeight="Bold" Background="#FFFF7500" FontSize="18"/>
+        <Button Content="Goat's Eye Mt" HorizontalAlignment="Left" Height="85" Margin="177,213,0,0" VerticalAlignment="Top" Width="145" BorderThickness="4" FontWeight="Bold" Background="#FFFFB008" Click="Button_Click_3" FontSize="18"/>
+        <Button Content="Mount Standish" HorizontalAlignment="Left" Height="85" Margin="333,213,0,0" VerticalAlignment="Top" Width="145" BorderThickness="4" FontWeight="Bold" Background="#FFFFB008" Click="Button_Click_4" FontSize="18"/>
+        <Image HorizontalAlignment="Left" Height="364" Margin="53,326,0,0" VerticalAlignment="Top" Width="414" Source="Runs.png"/>
 
 
     </Grid>
