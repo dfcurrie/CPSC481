@@ -26,7 +26,6 @@ namespace SkiAndBoardApp {
             Console.WriteLine("Trip Selected: " + curTripObject.curTrip);
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "My Trips: " + curTripObject.curTrip;
-            
         }
 
     }
