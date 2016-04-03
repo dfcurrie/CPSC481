@@ -22,9 +22,18 @@ namespace SkiAndBoardApp {
         public AddTrip() {
             InitializeComponent();
             this.mainWindow = Application.Current.MainWindow;
+            DataContext = mainWindow.DataContext;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
+            var tripObject = DataContext as TripObject;
+            Console.WriteLine(Location.SelectedItem.ToString());
+            char[] splitChars = { ':' };
+            String[] tripStr = Location.SelectedItem.ToString().Split(splitChars);
+            Console.WriteLine(tripStr[1]);
+            String str = tripStr[1].Substring(1);
+            tripObject.tripList.Add(str);
+
             Console.WriteLine("Add Trip");
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");

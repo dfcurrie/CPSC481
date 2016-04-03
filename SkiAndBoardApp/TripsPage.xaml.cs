@@ -14,13 +14,15 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SkiAndBoardApp {
-    /// <summary>
-    /// Interaction logic for Page1.xaml
-    /// </summary>
-    
     public partial class TripsPage : Page {
+        Window mainWindow;
         public TripsPage() {
-           
+            this.mainWindow = Application.Current.MainWindow;
+            DataContext = mainWindow.DataContext;
+        }
+
+        private void ListBoxItem_Selected(object sender, RoutedEventArgs e) {
+
         }
 
     }
