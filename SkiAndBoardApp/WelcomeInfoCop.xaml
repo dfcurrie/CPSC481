@@ -6,7 +6,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="336" d:DesignWidth="432">
     <Grid Background="White">
-        <TextBlock HorizontalAlignment="Left" Height="119" Margin="123,73,0,0" TextWrapping="Wrap" Text="COP" VerticalAlignment="Top" Width="132"/>
-            
+        <TextBlock HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" RenderTransformOrigin="0.493,0.536" FontSize="20"><Run Language="en-ca" Text="Canada Olympic Park: "/><Run Foreground="#FF41B811" Language="en-ca" Text="Open  9:00am - 3:30pm"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="5,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="427" FontSize="16" TextDecorations="{x:Null}"><Run Language="en-ca" Text="Snow Conditions   Open Trails     Open Lifts      Snow Depth"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="10,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409"><Run Language="en-ca" Text="Varying                              12/12                      2/2                   Base: 70 cm"/><LineBreak/><Run Language="en-ca" Text="Groomed                                                                                 Summit: 70 cm "/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="386" Margin="24,170,0,0" Source="WelcomeWeatherCOP.PNG"/>
     </Grid>
 </UserControl>
