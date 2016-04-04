@@ -14,9 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SkiAndBoardApp {
-    /// <summary>
-    /// Interaction logic for FriendPage.xaml
-    /// </summary>
     public partial class FriendPage : Page {
         public FriendPage() {
             InitializeComponent();

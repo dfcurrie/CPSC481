@@ -22,15 +22,17 @@ namespace SkiAndBoardApp {
         public AddFriend() {
             InitializeComponent();
             this.mainWindow = Application.Current.MainWindow;
+            DataContext = new FriendsObject();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
             Console.WriteLine("Add Friend");
-            NavigationService.Navigate(new Uri("FriendPage.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
             action.Content = "+";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Friend Finder";
+            FriendsObject.friendList.Add("Test");
         }
     }
 }

@@ -5,10 +5,6 @@
 
     <Grid Height="900" Width="590">
         <Image VerticalAlignment="Top" Height ="300" Width="597" Source="sunshine_village_canada_ski_area_trail_map.jpg" Margin="0,0,-7,0"/>
-        <ListBox HorizontalAlignment="Left" Height="342" Margin="10,0,0,253" VerticalAlignment="Bottom" Width="500" BorderThickness="0" FontFamily="Sans Serif" FontSize="22" SelectionMode="Multiple">
-            <ListBoxItem Content="Rayce Rossum"/>
-            <ListBoxItem Content="LaVerne Woroschuk"/>
-            <ListBoxItem Content="David Currie"/>
-        </ListBox>
+        <ListBox HorizontalAlignment="Left" Height="342" Margin="10,0,0,253" VerticalAlignment="Bottom" Width="500" BorderThickness="0" FontFamily="Sans Serif" FontSize="22" SelectionMode="Multiple" ItemsSource="{Binding friendList}"/>
     </Grid>
 </Page>

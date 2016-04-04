@@ -73,5 +73,13 @@ namespace SkiAndBoardApp {
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Deals";
         }
+
+        private void Sync_DoubleClick(object sender, MouseButtonEventArgs e) {
+            NavigationService.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "Sync Friends";
+        }
     }
 }

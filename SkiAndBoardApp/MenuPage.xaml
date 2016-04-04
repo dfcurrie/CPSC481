@@ -11,6 +11,7 @@
             <ListBoxItem Content="My Stats" MouseDoubleClick="Stats_DoubleClick"/>
             <ListBoxItem Content="Hill Info" MouseDoubleClick="Info_DoubleClick"/>
             <ListBoxItem Content="Deals" MouseDoubleClick="Deals_DoubleClick"/>
+            <ListBoxItem Content="Friend Sync" MouseDoubleClick="Sync_DoubleClick"/>
         </ListBox>
     </Grid>
     </Page>
