@@ -8,7 +8,7 @@
             <ListBoxItem Content="Welcome" MouseDoubleClick="Welcome_DoubleClick"/>
             <ListBoxItem Content="My Trips" MouseDoubleClick="Trips_DoubleClick"/>
             <ListBoxItem Content="Friend Finder" MouseDoubleClick="Friends_DoubleClick"/>
-            <ListBoxItem Content="My Stats" MouseDoubleClick="Stats_DoubleClick"/>
+            <ListBoxItem Content="Statistics" MouseDoubleClick="Stats_DoubleClick"/>
             <ListBoxItem Content="Hill Info" MouseDoubleClick="Info_DoubleClick"/>
             <ListBoxItem Content="Deals" MouseDoubleClick="Deals_DoubleClick"/>
             <ListBoxItem Content="Friend Sync" MouseDoubleClick="Sync_DoubleClick"/>

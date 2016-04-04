@@ -14,9 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SkiAndBoardApp {
-    /// <summary>
-    /// Interaction logic for AddFriend.xaml
-    /// </summary>
     public partial class AddFriend : Page {
         Window mainWindow;
         public AddFriend() {
@@ -36,13 +33,7 @@ namespace SkiAndBoardApp {
                     Console.WriteLine(str);
                 }
             }
-
-            Console.WriteLine("Add Friend");
-            NavigationService.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
-            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
-            action.Content = "+";
-            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
-            screenName.Content = "Sync Friends";   
+            SyncBtn.Content = "Synced";
         }
     }
 }

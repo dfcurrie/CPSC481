@@ -25,7 +25,7 @@ namespace SkiAndBoardApp {
         {
             NavigationService.Navigate(new Uri("WelcomePage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
-            action.Content = "+";
+            action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Welcome";
         }
@@ -76,6 +76,10 @@ namespace SkiAndBoardApp {
             action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Sync Friends";
+        }
+
+        private void ListBoxItem_Selected(object sender, RoutedEventArgs e) {
+
         }
     }
 }

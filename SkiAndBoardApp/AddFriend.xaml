@@ -13,6 +13,6 @@
             <ListBoxItem Content="LaVerne Woroschuk"/>
             <ListBoxItem Content="David Currie"/>
         </ListBox>
-        <Button Content="Sync" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="150" Click="Button_Click" Height="60" Margin="195,0,245,75" Background="#FFFF6C00" BorderThickness="3" FontWeight="Bold"/>
+        <Button Name ="SyncBtn" Content="Sync" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="150" Click="Button_Click" FontSize="20" Height="60" Margin="195,0,245,75" Background="#FFFF6C00" BorderThickness="3" FontWeight="Bold"/>
     </Grid>
 </Page>
