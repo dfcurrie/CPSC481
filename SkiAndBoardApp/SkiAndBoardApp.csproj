@@ -124,6 +124,7 @@
       <DependentUpon>AddFriend.xaml</DependentUpon>
     </Compile>
     <Compile Include="FriendsObject.cs" />
+    <Compile Include="globalFriendObject.cs" />
     <Compile Include="WelcomeInfoCop.xaml.cs">
       <DependentUpon>WelcomeInfoCop.xaml</DependentUpon>
     </Compile>

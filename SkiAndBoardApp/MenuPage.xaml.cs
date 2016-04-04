@@ -28,10 +28,7 @@ namespace SkiAndBoardApp {
             action.Content = "+";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Welcome";
-
         }
-
-
 
         private void Trips_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
@@ -39,7 +36,6 @@ namespace SkiAndBoardApp {
             action.Content = "+";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "My Trips: " + curTripObject.curTrip;
-  
         }
 
         private void Friends_DoubleClick(object sender, MouseButtonEventArgs e) {

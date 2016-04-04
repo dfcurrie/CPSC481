@@ -17,6 +17,7 @@ namespace SkiAndBoardApp {
     public partial class FriendPage : Page {
         public FriendPage() {
             InitializeComponent();
+            DataContext = globalFriendObject.friends;
         }
     }
 }

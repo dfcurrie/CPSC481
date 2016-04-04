@@ -17,7 +17,6 @@ using System.Collections;
 
 namespace SkiAndBoardApp {
     public partial class MainWindow : Window {
-        public TripObject trips = new TripObject();
 
         public MainWindow() {
             InitializeComponent();
