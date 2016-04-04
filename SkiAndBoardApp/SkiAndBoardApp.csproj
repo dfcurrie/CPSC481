@@ -68,6 +68,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DealsPageDeal1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DealsPageDeal2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DealsPageDeal3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DealsPageDeal4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="FriendPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -122,6 +138,18 @@
     </Page>
     <Compile Include="AddFriend.xaml.cs">
       <DependentUpon>AddFriend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DealsPageDeal1.xaml.cs">
+      <DependentUpon>DealsPageDeal1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DealsPageDeal2.xaml.cs">
+      <DependentUpon>DealsPageDeal2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DealsPageDeal3.xaml.cs">
+      <DependentUpon>DealsPageDeal3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DealsPageDeal4.xaml.cs">
+      <DependentUpon>DealsPageDeal4.xaml</DependentUpon>
     </Compile>
     <Compile Include="FriendsObject.cs" />
     <Compile Include="globalFriendObject.cs" />
@@ -272,6 +300,9 @@
     <Resource Include="stats1.jpg" />
     <Resource Include="stats2.jpg" />
     <Resource Include="stats3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="qrCode.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -41,7 +41,7 @@ namespace SkiAndBoardApp {
         private void Friends_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("FriendPage.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
-            action.Content = "+";
+            action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Friend Finder";
         }
@@ -73,7 +73,7 @@ namespace SkiAndBoardApp {
         private void Sync_DoubleClick(object sender, MouseButtonEventArgs e) {
             NavigationService.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
             Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
-            action.Content = "+";
+            action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Sync Friends";
         }

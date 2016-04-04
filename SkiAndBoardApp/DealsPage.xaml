@@ -6,24 +6,24 @@
     <Grid Height="700" Width="505" Background="White">
         <ScrollViewer VerticalScrollBarVisibility="Auto" >
             <StackPanel HorizontalAlignment="Left" Height="880" Margin="10,10,0,0" VerticalAlignment="Top" Width="475" >
-                <Button Height="200" Margin="10">
-                    <TextBlock Text="15% off of Lift Ticket"
-                        TextWrapping="Wrap" FontSize="36"/>
+                <Button Height="200" Margin="10" Click="Button_Click">
+                    <TextBlock Text="15% Off Lift Ticket"
+                        TextWrapping="Wrap" FontSize="36" FontFamily="Segoe UI" TextAlignment="Center"/>
                 </Button>
                 
-                <Button Height="200" Margin="10">
-                    <TextBlock Text="$17 Burger and Beer at the Mid Mountain Lounge"
-                        TextWrapping="Wrap" FontSize="36"/>
+                <Button Height="200" Margin="10" Click="Button_Click_1">
+                    <TextBlock Text="$17 Burger and Beer at the Mid-Mountain Lounge"
+                        TextWrapping="Wrap" FontSize="36" FontFamily="Segoe UI" TextAlignment="Center"/>
                 </Button>
                 
-                <Button Height="200" Margin="10">
-                    <TextBlock Text="Waxing and edge sharpening $10"
-                        TextWrapping="Wrap" FontSize="36"/>
+                <Button Height="200" Margin="10" Click="Button_Click_2">
+                    <TextBlock Text="Waxing and Edge Sharpening $10"
+                        TextWrapping="Wrap" FontSize="36" FontFamily="Segoe UI" TextAlignment="Center"/>
                 </Button>
 
-                <Button Height="200" Margin="10">
-                    <TextBlock Text="20% off rentals"
-               TextWrapping="Wrap" FontSize="36"/>
+                <Button Height="200" Margin="10" Click="Button_Click_3">
+                    <TextBlock Text="20% Off Rentals"
+               TextWrapping="Wrap" FontSize="36" FontFamily="Segoe UI" TextAlignment="Center"/>
                 </Button>
                 
             </StackPanel>
