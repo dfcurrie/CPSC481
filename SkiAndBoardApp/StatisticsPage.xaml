@@ -7,7 +7,7 @@
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="10,310,0,0" Stroke="Black" VerticalAlignment="Top" Width="505"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="10,415,0,0" Stroke="Black" VerticalAlignment="Top" Width="505"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="10,520,0,0" Stroke="Black" VerticalAlignment="Top" Width="505"/>
-        <ListBox HorizontalAlignment="Left" Height="103" Margin="10,630,0,0" VerticalAlignment="Top" Width="505" FontFamily="Segoe UI" FontSize="22">
+        <ListBox HorizontalAlignment="Left" Height="107" Margin="10,630,0,0" VerticalAlignment="Top" Width="505" FontFamily="Segoe UI" FontSize="22">
             <ListBoxItem x:Name="Friend1" Content="Rayce Rossum" Selected="Friend1_Selected" />
             <ListBoxItem x:Name="Friend2" Content="LaVerne Woroschuk" Selected="Friend2_Selected"/>
             <ListBoxItem x:Name="Friend3" Content="David Currie" Selected="Friend3_Selected"/>
