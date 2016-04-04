@@ -18,6 +18,16 @@ namespace SkiAndBoardApp {
         public FriendPage() {
             InitializeComponent();
             DataContext = globalFriendObject.friends;
+            if (curTripObject.curTrip != null) { 
+                string[] split = curTripObject.curTrip.Split('-');
+                if (split[0] == "Sunshine ") {
+                    Console.WriteLine("Sunshine");
+                } else if (split[0] == "Canada Olympic Park ") {
+                    Console.WriteLine("COP");
+                }
+            }
+            
+
         }
     }
 }

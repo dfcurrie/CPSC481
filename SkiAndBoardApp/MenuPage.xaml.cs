@@ -77,9 +77,5 @@ namespace SkiAndBoardApp {
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Sync Friends";
         }
-
-        private void ListBoxItem_Selected(object sender, RoutedEventArgs e) {
-
-        }
     }
 }
