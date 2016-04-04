@@ -22,8 +22,10 @@ namespace SkiAndBoardApp {
     public partial class WelcomePage : Page 
     {
         Window mainWindow;
+
         WelcomeInfoSun page1 = new WelcomeInfoSun();
         WelcomeInfoCop page2 = new WelcomeInfoCop();
+        WelcomeInfoClosed page3 = new WelcomeInfoClosed();
 
         public WelcomePage() {
             InitializeComponent();
@@ -43,7 +45,19 @@ namespace SkiAndBoardApp {
                 stackPanel1.Children.Clear();
                 stackPanel1.Children.Add(page2);
             }
+            else
+            {
+                stackPanel1.Children.Clear();
+                stackPanel1.Children.Add(page3);
+            }
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
+            Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
+            screenName.Content = "Trips";
         }
 
 
