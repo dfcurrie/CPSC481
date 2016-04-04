@@ -24,6 +24,7 @@ namespace SkiAndBoardApp {
                     Console.WriteLine("Sunshine");
                 } else if (split[0] == "Canada Olympic Park ") {
                     Console.WriteLine("COP");
+
                 }
             }
             
