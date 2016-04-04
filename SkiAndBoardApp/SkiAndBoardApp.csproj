@@ -92,6 +92,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="MenuPage2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="WelcomeInfoClosed.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -157,6 +161,9 @@
     </Compile>
     <Compile Include="FriendsObject.cs" />
     <Compile Include="globalFriendObject.cs" />
+    <Compile Include="MenuPage2.xaml.cs">
+      <DependentUpon>MenuPage2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WelcomeInfoClosed.xaml.cs">
       <DependentUpon>WelcomeInfoClosed.xaml</DependentUpon>
     </Compile>
@@ -310,6 +317,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="qrCode.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="trail-map_canada-olympic-park-calgary_n4805-21377-0_raw.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

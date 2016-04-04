@@ -14,11 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SkiAndBoardApp {
-    /// <summary>
-    /// Interaction logic for InfoPage.xaml
-    /// </summary>
-    /// 
-
     public partial class WelcomePage : Page 
     {
         Window mainWindow;
@@ -50,14 +45,15 @@ namespace SkiAndBoardApp {
                 stackPanel1.Children.Clear();
                 stackPanel1.Children.Add(page3);
             }
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Uri("TripsPage.xaml", UriKind.Relative));
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
-            screenName.Content = "Trips";
+            screenName.Content = "My Trips: " + curTripObject.curTrip;
+            Label action = (Label)mainWindow.FindName("ActionBtn_Txt");
+            action.Content = "+";
         }
 
 

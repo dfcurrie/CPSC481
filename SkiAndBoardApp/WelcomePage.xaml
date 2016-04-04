@@ -4,11 +4,10 @@
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
     <Grid Height="700" Width="505" Background="White">
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ski and Snowboard App" VerticalAlignment="Top" Height="66" Width="418" Margin="42,10,0,0" FontSize="36" FontWeight="Bold" TextDecorations="Underline"/>
-        <Button Content="Create and Manage Trips" HorizontalAlignment="Left" Height="82" Margin="35,81,0,0" VerticalAlignment="Top" Width="432" FontSize="36" FontWeight="Bold" Background="#FFFF6C00" BorderThickness="4" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ski and Snowboard App" VerticalAlignment="Top" Height="66" Width="418" Margin="57,10,0,0" FontSize="32" FontWeight="Bold" TextDecorations="Underline"/>
+        <Button Content="Create and Manage Trips" HorizontalAlignment="Left" Height="82" Margin="35,76,0,0" VerticalAlignment="Top" Width="432" FontSize="24" FontWeight="Bold" Background="#FFFF6C00" BorderThickness="4" Click="Button_Click"/>
         <StackPanel Name ="stackPanel1" HorizontalAlignment="Left" Height="336" Margin="35,290,0,0" VerticalAlignment="Top" Width="432"/>
-        <ComboBox Name="Location" SelectedIndex="0" HorizontalAlignment="Center" Width="410" Height="38" VerticalAlignment="Top" Margin="50,224,45,0" FontSize="24" SelectionChanged="SelectionChanged">
-            <ComboBoxItem Content="Sunshine"/>
+        <ComboBox Name="Location" SelectedIndex="17" HorizontalAlignment="Center" Width="410" Height="32" VerticalAlignment="Top" Margin="50,224,45,0" FontSize="20" SelectionChanged="SelectionChanged">
             <ComboBoxItem Content="Canada Olympic Park"/>
             <ComboBoxItem Content="Canmore Nordic Centre"/>
             <ComboBoxItem Content="Canyon Ski Area"/>
@@ -26,6 +25,7 @@
             <ComboBoxItem Content="Misery Mountain"/>
             <ComboBoxItem Content="Mount Norquay Ski Resort"/>
             <ComboBoxItem Content="Nakiska"/>
+            <ComboBoxItem Content="Sunshine"/>
         </ComboBox>
         <Label Content="Conditions" HorizontalAlignment="Left" Height="56" Margin="57,168,0,0" VerticalAlignment="Top" Width="385" FontSize="22" FontWeight="Bold"/>
 

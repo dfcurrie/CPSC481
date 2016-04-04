@@ -19,6 +19,18 @@ namespace SkiAndBoardApp {
         public MenuPage() {
             InitializeComponent();
             this.mainWindow = Application.Current.MainWindow;
+            Welcome.IsEnabled = true;
+            Trips.IsEnabled = true;
+            FriendFinder.IsEnabled = true;
+            Stats.IsEnabled = true;
+            Info.IsEnabled = true;
+            Deals.IsEnabled = true;
+            Sync.IsEnabled = true;
+        }
+
+        public ListBoxItem getDealsOption()
+        {
+            return Deals;
         }
 
         private void Welcome_DoubleClick(object sender, MouseButtonEventArgs e)
@@ -44,6 +56,7 @@ namespace SkiAndBoardApp {
             action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Friend Finder";
+
         }
 
         private void Stats_DoubleClick(object sender, MouseButtonEventArgs e) {
@@ -76,6 +89,9 @@ namespace SkiAndBoardApp {
             action.Content = "";
             Label screenName = (Label)mainWindow.FindName("CurrentScreenLbl");
             screenName.Content = "Sync Friends";
+
         }
+
+
     }
 }

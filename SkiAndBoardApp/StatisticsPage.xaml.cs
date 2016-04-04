@@ -17,152 +17,74 @@ namespace SkiAndBoardApp {
     /// <summary>
     /// Interaction logic for StatisticsPage.xaml
     /// </summary>
-    public partial class StatisticsPage : Page {
-        public StatisticsPage() {
+    public partial class StatisticsPage : Page
+    {
+        public StatisticsPage()
+        {
             InitializeComponent();
-
-            Friend1_pic.Visibility = System.Windows.Visibility.Visible;
-            Friend1_numRuns.Visibility = System.Windows.Visibility.Visible;
-            Friend1_dist.Visibility = System.Windows.Visibility.Visible;
-            Friend1_airTime.Visibility = System.Windows.Visibility.Visible;
-            Friend1_elev.Visibility = System.Windows.Visibility.Visible;
-            Friend1_vertical.Visibility = System.Windows.Visibility.Visible;
-            Friend1_maxSpeed.Visibility = System.Windows.Visibility.Visible;
-            Friend1_cal.Visibility = System.Windows.Visibility.Visible;
-            Friend1_avgHR.Visibility = System.Windows.Visibility.Visible;
-            Friend1_time.Visibility = System.Windows.Visibility.Visible;
-
-            Friend2_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_time.Visibility = System.Windows.Visibility.Hidden;
-
-            Friend3_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_time.Visibility = System.Windows.Visibility.Hidden;
-
+            DataContext = globalFriendObject.friends;
         }
 
-     
-        private void Friend1_Selected(object sender, RoutedEventArgs e)
+        private void StatListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Friend1_pic.Visibility = System.Windows.Visibility.Visible;
-            Friend1_numRuns.Visibility = System.Windows.Visibility.Visible;
-            Friend1_dist.Visibility = System.Windows.Visibility.Visible;
-            Friend1_airTime.Visibility = System.Windows.Visibility.Visible;
-            Friend1_elev.Visibility = System.Windows.Visibility.Visible;
-            Friend1_vertical.Visibility = System.Windows.Visibility.Visible;
-            Friend1_maxSpeed.Visibility = System.Windows.Visibility.Visible;
-            Friend1_cal.Visibility = System.Windows.Visibility.Visible;
-            Friend1_avgHR.Visibility = System.Windows.Visibility.Visible;
-            Friend1_time.Visibility = System.Windows.Visibility.Visible;
-
-            Friend2_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_time.Visibility = System.Windows.Visibility.Hidden;
-
-            Friend3_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_time.Visibility = System.Windows.Visibility.Hidden;
+            if (curTripObject.curTrip != null)
+            {
+                string[] split = curTripObject.curTrip.Split('-');
+                if (split[0] == "Sunshine ")
+                {
+                    foreach (String i in StatListBox.SelectedItems)
+                    {
+                        if (i == "Rayce Rossum")
+                        {
+                            statsMap.Source = new BitmapImage(new Uri("stats2.jpg", UriKind.Relative));
+                        }
+                        else if (i == "LaVerne Woroschuk")
+                        {
+                            statsMap.Source = new BitmapImage(new Uri("stats3.jpg", UriKind.Relative));
+                        }
+                        else if (i == "David Currie")
+                        {
+                            statsMap.Source = new BitmapImage(new Uri("stats1.jpg", UriKind.Relative));
+                        }
+                    }
+                }
+                else if (split[0] == "Canada Olympic Park ")
+                {
+                    foreach (String i in StatListBox.SelectedItems)
+                    {
+                        if (i == "Rayce Rossum")
+                        {
+                            statsMap.Source = new BitmapImage(new Uri("stats2.jpg", UriKind.Relative));
+                        }
+                        else if (i == "LaVerne Woroschuk")
+                        {
+                            statsMap.Source = new BitmapImage(new Uri("stats3.jpg", UriKind.Relative));
+                        }
+                        else if (i == "David Currie")
+                        {
+                            statsMap.Source = new BitmapImage(new Uri("stats1.jpg", UriKind.Relative));
+                        }
+                    }
+                }
+            }
         }
 
-        private void Friend2_Selected(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Friend2_pic.Visibility = System.Windows.Visibility.Visible;
-            Friend2_numRuns.Visibility = System.Windows.Visibility.Visible;
-            Friend2_dist.Visibility = System.Windows.Visibility.Visible;
-            Friend2_airTime.Visibility = System.Windows.Visibility.Visible;
-            Friend2_elev.Visibility = System.Windows.Visibility.Visible;
-            Friend2_vertical.Visibility = System.Windows.Visibility.Visible;
-            Friend2_maxSpeed.Visibility = System.Windows.Visibility.Visible;
-            Friend2_cal.Visibility = System.Windows.Visibility.Visible;
-            Friend2_avgHR.Visibility = System.Windows.Visibility.Visible;
-            Friend2_time.Visibility = System.Windows.Visibility.Visible;
 
-            Friend1_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_time.Visibility = System.Windows.Visibility.Hidden;
+            if (curTripObject.curTrip != null)
+            {
+                string[] split = curTripObject.curTrip.Split('-');
+                if (split[0] == "Sunshine ")
+                {
+                    statsMap.Source = new BitmapImage(new Uri("stats1.jpg", UriKind.Relative));
+                }
+                else if (split[0] == "Canada Olympic Park ")
+                {
+                    statsMap.Source = new BitmapImage(new Uri("stats3.jpg", UriKind.Relative));
 
-            Friend3_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend3_time.Visibility = System.Windows.Visibility.Hidden;
-        }
-
-        private void Friend3_Selected(object sender, RoutedEventArgs e)
-        {
-            Friend3_pic.Visibility = System.Windows.Visibility.Visible;
-            Friend3_numRuns.Visibility = System.Windows.Visibility.Visible;
-            Friend3_dist.Visibility = System.Windows.Visibility.Visible;
-            Friend3_airTime.Visibility = System.Windows.Visibility.Visible;
-            Friend3_elev.Visibility = System.Windows.Visibility.Visible;
-            Friend3_vertical.Visibility = System.Windows.Visibility.Visible;
-            Friend3_maxSpeed.Visibility = System.Windows.Visibility.Visible;
-            Friend3_cal.Visibility = System.Windows.Visibility.Visible;
-            Friend3_avgHR.Visibility = System.Windows.Visibility.Visible;
-            Friend3_time.Visibility = System.Windows.Visibility.Visible;
-
-            Friend1_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend1_time.Visibility = System.Windows.Visibility.Hidden;
-
-            Friend2_pic.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_numRuns.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_dist.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_airTime.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_elev.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_vertical.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_maxSpeed.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_cal.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_avgHR.Visibility = System.Windows.Visibility.Hidden;
-            Friend2_time.Visibility = System.Windows.Visibility.Hidden;
+                }
+            }
         }
     }
 }

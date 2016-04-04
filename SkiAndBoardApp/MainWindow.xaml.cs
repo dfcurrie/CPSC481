@@ -48,31 +48,33 @@ namespace SkiAndBoardApp {
                 CurrentScreenLbl.Content = "Add Trip";
                 ActionBtn_Txt.Content = "";
                 Console.WriteLine("Add Trip");
-            } else {
-                switch ((String)CurrentScreenLbl.Content) {
-                    case ("Friend Finder"):
-                        Console.WriteLine("Friends");
-                        MainFrame.Navigate(new Uri("AddFriend.xaml", UriKind.Relative));
-                        CurrentScreenLbl.Content = "Add Friends";
-                        ActionBtn_Txt.Content = "";
-                        break;
-                    case ("Statistics"):
-                        //Console.WriteLine("Stats");
-                        break;
-                    case ("Info"):
-                        //Console.WriteLine("Info");
-                        break;
-                    case ("Deals"):
-                        //Console.WriteLine("Deals");
-                        break;
-                }
-            }
+            } 
         }
 
         private void MenuBtn_Click(object sender, RoutedEventArgs e) {
-            this.CurrentScreenLbl.Content = "Menu";
-            this.ActionBtn_Txt.Content = "";
-            this.MainFrame.Navigate(new Uri("MenuPage.xaml", UriKind.Relative));
+            if (curTripObject.curTrip!= null) {
+            string[] split = curTripObject.curTrip.Split('-');
+
+            Console.WriteLine(split[1].Substring(1));
+
+            if (Convert.ToDateTime(split[1].Substring(1)) == DateTime.Today)
+            { 
+                this.CurrentScreenLbl.Content = "Menu";
+                this.ActionBtn_Txt.Content = "";
+                this.MainFrame.Navigate(new Uri("MenuPage.xaml", UriKind.Relative));
+             }
+
+            if (Convert.ToDateTime(split[1].Substring(1)) < DateTime.Today)
+            {
+                this.CurrentScreenLbl.Content = "Menu";
+                this.ActionBtn_Txt.Content = "";
+                this.MainFrame.Navigate(new Uri("MenuPage2.xaml", UriKind.Relative));
+            }
+            } else {
+                this.CurrentScreenLbl.Content = "Menu";
+                this.ActionBtn_Txt.Content = "";
+                this.MainFrame.Navigate(new Uri("MenuPage2.xaml", UriKind.Relative));
+            }
         }
 
         private void BackBtn_Click(object sender, RoutedEventArgs e) {

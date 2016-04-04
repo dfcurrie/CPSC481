@@ -10,7 +10,6 @@ public class TripObject {
         tripList = new ObservableCollection<string>();
         tripList.Add("Canada Olympic Park - 3/10/2016");
         tripList.Add("Sunshine - 1/15/2016");
-        tripList.Add("Edmonton Ski Club - 12/16/2015");
     }
 
     public ObservableCollection<string> tripList { get; set; }

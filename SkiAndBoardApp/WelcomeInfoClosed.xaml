@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="336" d:DesignWidth="432">
     <Grid Background="White">
-        <Label Content="Sorry this hill is &#xD;&#xA;closed for the &#xD;&#xA;Season" HorizontalAlignment="Left" Height="220" Margin="18,47,0,0" VerticalAlignment="Top" Width="389" FontSize="48" FontWeight="Bold"/>
+        <Label Content="Sorry this hill is &#xD;&#xA;closed for the &#xD;&#xA;Season" HorizontalContentAlignment="Center" Height="220" Margin="18,47,0,0" VerticalAlignment="Top" Width="389" FontSize="48" FontWeight="Bold"/>
 
     </Grid>
 </UserControl>

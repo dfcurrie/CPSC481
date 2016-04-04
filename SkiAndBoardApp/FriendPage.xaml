@@ -4,7 +4,10 @@
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
     <Grid Height="900" Width="590">
-        <Image VerticalAlignment="Top" Height ="300" Width="597" Source="sunshine_village_canada_ski_area_trail_map.jpg" Margin="0,0,-7,0"/>
-        <ListBox HorizontalAlignment="Left" Height="342" Margin="10,0,0,253" VerticalAlignment="Bottom" Width="500" BorderThickness="0" FontFamily="Sans Serif" FontSize="22" SelectionMode="Multiple" ItemsSource="{Binding friendList}"/>
+        <Image Name="TrailMap" VerticalAlignment="Top" Height ="300" Width="597" Source="sunshine_village_canada_ski_area_trail_map.jpg" Margin="0,0,50,0" HorizontalAlignment="Center"/>
+        <ListBox Name="FriendFinderList" HorizontalAlignment="Left" Height="342" Margin="10,0,0,253" VerticalAlignment="Bottom" Width="500" BorderThickness="0" FontFamily="Sans Serif" FontSize="22" SelectionMode="Single" ItemsSource="{Binding friendList}" SelectionChanged="FriendFinderList_SelectionChanged"/>
+        <Rectangle x:Name="LaVerneLoc" Fill="#FFFF0426" HorizontalAlignment="Left" Height="20" Margin="119,74,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" Visibility="Hidden"/>
+        <Rectangle x:Name="CurrieLoc" Fill="#FFD1FF04" HorizontalAlignment="Left" Height="20" Margin="320,48,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" Visibility="Hidden"/>
+        <Rectangle x:Name="RayceLoc" Fill="#FF0404FF" HorizontalAlignment="Left" Height="20" Margin="137,207,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" Visibility="Hidden"/>
     </Grid>
 </Page>
