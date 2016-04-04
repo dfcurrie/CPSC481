@@ -321,6 +321,13 @@
   <ItemGroup>
     <Resource Include="trail-map_canada-olympic-park-calgary_n4805-21377-0_raw.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="stats4.jpg" />
+    <Resource Include="stats5.jpg" />
+    <Resource Include="stats6.jpg" />
+    <Resource Include="stats7.jpg" />
+    <Resource Include="stats8.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

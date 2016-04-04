@@ -80,6 +80,7 @@ namespace SkiAndBoardApp {
         private void BackBtn_Click(object sender, RoutedEventArgs e) {
             if (this.MainFrame.NavigationService.CanGoBack) {
                 this.MainFrame.NavigationService.GoBack();
+                this.ActionBtn_Txt.Content = "+";
             }
         }
 

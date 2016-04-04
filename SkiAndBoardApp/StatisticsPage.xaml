@@ -18,11 +18,11 @@
         <Label Content="Avg. Heart Rate:" HorizontalAlignment="Left" Margin="190,520,0,0" VerticalAlignment="Top" Height="105" Width="140" FontSize="16"/>
         <Label Content="Time:" HorizontalAlignment="Left" Margin="375,520,0,0" VerticalAlignment="Top" Height="105" Width="140" FontSize="16"/>
 
-        <TextBlock HorizontalAlignment="Left" Height="45" Margin="35,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="8                                      2.4km                             0.2seconds"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="45" Margin="35,448,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="1000m                             8000m                             30 km/h"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="45" Margin="35,555,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="600                                     100bpm                             1h30m"/></TextBlock>
-        <Image x:Name="statsMap" HorizontalAlignment="Left" Height="295" Margin="134,10,0,0" VerticalAlignment="Top" Width="287" Source="stats1.jpg"/>
-        <Button Content="MyStats" HorizontalAlignment="Left" Height="102" Margin="10,630,0,0" VerticalAlignment="Top" Width="103" FontSize="18" FontWeight="Bold" Click="Button_Click"  Background="#FFFF6C00" BorderThickness="3"/>
+        <TextBlock x:Name="ChangeBox1" HorizontalAlignment="Left" Height="45" Margin="35,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="8                                      2.4km                             0.2seconds"/></TextBlock>
+        <TextBlock x:Name="ChangeBox2" HorizontalAlignment="Left" Height="45" Margin="35,448,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="1000m                             8000m                             30 km/h"/></TextBlock>
+        <TextBlock x:Name="ChangeBox3" HorizontalAlignment="Left" Height="45" Margin="35,555,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="600                                     100bpm                             1h30m"/></TextBlock>
+        <Image x:Name="statsMap" HorizontalAlignment="Left" Height="295" Margin="35,10,0,0" VerticalAlignment="Top" Width="480" Source="stats1.jpg"/>
+        <Button Content="MyStats" HorizontalAlignment="Left" Height="103" Margin="10,630,0,0" VerticalAlignment="Top" Width="103" Background="#FFFB6C2A" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
     </Grid>
 
 

@@ -23,6 +23,25 @@ namespace SkiAndBoardApp {
         {
             InitializeComponent();
             DataContext = globalFriendObject.friends;
+            if (curTripObject.curTrip != null)
+            {
+                string[] split = curTripObject.curTrip.Split('-');
+                if (split[0] == "Sunshine ")
+                {
+                    statsMap.Source = new BitmapImage(new Uri("stats1.jpg", UriKind.Relative));
+                    ChangeBox1.Text = "7                                        7.1km                        0.0seconds";
+                    ChangeBox2.Text = "1000m                                     8000m                             16km/h";
+                    ChangeBox3.Text = "600                                     110bpm                             2h30m";
+                }
+                else if (split[0] == "Canada Olympic Park ")
+                {
+                    statsMap.Source = new BitmapImage(new Uri("stats5.jpg", UriKind.Relative));
+                    ChangeBox1.Text = "7                                        2.1km                        0.1seconds";
+                    ChangeBox2.Text = "1000m                                     8000m                             36km/h";
+                    ChangeBox3.Text = "600                                     110bpm                             1h30m";
+                }
+            }
+
         }
 
         private void StatListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -37,14 +56,23 @@ namespace SkiAndBoardApp {
                         if (i == "Rayce Rossum")
                         {
                             statsMap.Source = new BitmapImage(new Uri("stats2.jpg", UriKind.Relative));
+                            ChangeBox1.Text = "5                                        2.3km                        0.2seconds";
+                            ChangeBox2.Text = "1000m                                     8000m                             30km/h";
+                            ChangeBox3.Text = "600                                     100bpm                             1h30m";
                         }
                         else if (i == "LaVerne Woroschuk")
                         {
                             statsMap.Source = new BitmapImage(new Uri("stats3.jpg", UriKind.Relative));
+                            ChangeBox1.Text = "23                                        9.8km                        0.2seconds";
+                            ChangeBox2.Text = "1000m                                     23000m                             20km/h";
+                            ChangeBox3.Text = "800                                     100bpm                             1h20m";
                         }
                         else if (i == "David Currie")
                         {
-                            statsMap.Source = new BitmapImage(new Uri("stats1.jpg", UriKind.Relative));
+                            statsMap.Source = new BitmapImage(new Uri("stats4.jpg", UriKind.Relative));
+                            ChangeBox1.Text = "5                                        2.3km                        0.2seconds";
+                            ChangeBox2.Text = "1000m                                     8000m                             30km/h";
+                            ChangeBox3.Text = "600                                     100bpm                             1h30m";
                         }
                     }
                 }
@@ -54,15 +82,24 @@ namespace SkiAndBoardApp {
                     {
                         if (i == "Rayce Rossum")
                         {
-                            statsMap.Source = new BitmapImage(new Uri("stats2.jpg", UriKind.Relative));
+                            statsMap.Source = new BitmapImage(new Uri("stats6.jpg", UriKind.Relative));
+                            ChangeBox1.Text = "9                                        5.3km                        0.2seconds";
+                            ChangeBox2.Text = "1000m                                     8000m                             30km/h";
+                            ChangeBox3.Text = "600                                     600bpm                             1h30m";
                         }
                         else if (i == "LaVerne Woroschuk")
                         {
-                            statsMap.Source = new BitmapImage(new Uri("stats3.jpg", UriKind.Relative));
+                            statsMap.Source = new BitmapImage(new Uri("stats7.jpg", UriKind.Relative));
+                            ChangeBox1.Text = "5                                        2.3km                        0.2seconds";
+                            ChangeBox2.Text = "1000m                                     8000m                             30km/h";
+                            ChangeBox3.Text = "600                                     800bpm                             1h30m";
                         }
                         else if (i == "David Currie")
                         {
-                            statsMap.Source = new BitmapImage(new Uri("stats1.jpg", UriKind.Relative));
+                            statsMap.Source = new BitmapImage(new Uri("stats8.jpg", UriKind.Relative));
+                            ChangeBox1.Text = "23                                        2.3km                        0.2seconds";
+                            ChangeBox2.Text = "1000m                                     23000m                           30km/h";
+                            ChangeBox3.Text = "600                                       200bpm                             1h30m";
                         }
                     }
                 }
@@ -78,10 +115,16 @@ namespace SkiAndBoardApp {
                 if (split[0] == "Sunshine ")
                 {
                     statsMap.Source = new BitmapImage(new Uri("stats1.jpg", UriKind.Relative));
+                    ChangeBox1.Text = "16                                        7.1km                        0.0seconds";
+                    ChangeBox2.Text = "1000m                                     8000m                             16km/h";
+                    ChangeBox3.Text = "600                                     110bpm                             2h30m";
                 }
                 else if (split[0] == "Canada Olympic Park ")
                 {
-                    statsMap.Source = new BitmapImage(new Uri("stats3.jpg", UriKind.Relative));
+                    statsMap.Source = new BitmapImage(new Uri("stats5.jpg", UriKind.Relative));
+                    ChangeBox1.Text = "7                                        2.1km                        0.1seconds";
+                    ChangeBox2.Text = "1000m                                     8000m                             36km/h";
+                    ChangeBox3.Text = "600                                     110bpm                             1h30m";
 
                 }
             }
