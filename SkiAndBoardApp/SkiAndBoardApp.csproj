@@ -123,6 +123,7 @@
     <Compile Include="AddFriend.xaml.cs">
       <DependentUpon>AddFriend.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FriendFinderObject.cs" />
     <Compile Include="WelcomeInfoCop.xaml.cs">
       <DependentUpon>WelcomeInfoCop.xaml</DependentUpon>
     </Compile>

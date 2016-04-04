@@ -164,6 +164,5 @@ namespace SkiAndBoardApp {
             Friend2_avgHR.Visibility = System.Windows.Visibility.Hidden;
             Friend2_time.Visibility = System.Windows.Visibility.Hidden;
         }
-
     }
 }
