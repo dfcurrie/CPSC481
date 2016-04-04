@@ -7,12 +7,12 @@
       d:DesignHeight="300" d:DesignWidth="300"
 	Title="AddFriend">
 
-    <Grid Height="700" Width="590">
+    <Grid Height="900" Width="590">
         <ListBox Name="Friends" HorizontalAlignment="Left" Height="600" Margin="10,0,0,0" VerticalAlignment="Top" Width="570" BorderThickness="0" FontFamily="Sans Serif" FontSize="22" SelectionMode="Multiple">
             <ListBoxItem Content="Rayce Rossum"/>
             <ListBoxItem Content="LaVerne Woroschuk"/>
             <ListBoxItem Content="David Currie"/>
         </ListBox>
-        <Button Name ="SyncBtn" Content="Sync" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="150" Click="Button_Click" FontSize="20" Height="60" Margin="195,0,245,75" Background="#FFFF6C00" BorderThickness="3" FontWeight="Bold"/>
+        <Button Name ="SyncBtn" Content="Sync" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="150" Click="Button_Click" FontSize="20" Height="60" Margin="191,0,249,235" Background="#FFFF6C00" BorderThickness="3" FontWeight="Bold"/>
     </Grid>
 </Page>

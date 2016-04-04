@@ -4,8 +4,8 @@
         Title="SkiAndBoardApp" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
     <Grid Height="700" Width="505" Background="White">
-        <Image HorizontalAlignment="Left" Height="475" Margin="73,54,0,0" VerticalAlignment="Top" Width="379" Source="qrCode.jpg"/>
-        <Button Content="OK" HorizontalAlignment="Left" Margin="203,398,0,0" VerticalAlignment="Top" Width="127" Height="47" FontFamily="Segoe UI" FontSize="22" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="46,35,0,0" TextWrapping="Wrap" Text="$17 Burger and Beer at the Mid-Mountain Lounge" VerticalAlignment="Top" Height="112" Width="430" FontFamily="Segoe UI" FontSize="30" TextAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="475" Margin="55,54,0,0" VerticalAlignment="Top" Width="379" Source="qrCode.jpg"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="182,534,0,0" VerticalAlignment="Top" Width="127" Height="47" FontFamily="Segoe UI" FontSize="22" Click="Button_Click"  Background="#FFFF6C00" BorderThickness="3" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="104,54,0,0" TextWrapping="Wrap" Text="$17 Burger &amp; Beer" VerticalAlignment="Top" Height="49" Width="286" FontFamily="Segoe UI" FontSize="30" TextAlignment="Center" />
     </Grid>
 </Page>

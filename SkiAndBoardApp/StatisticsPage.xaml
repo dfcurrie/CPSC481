@@ -22,7 +22,7 @@
         <TextBlock HorizontalAlignment="Left" Height="45" Margin="35,448,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="1000m                             8000m                             30 km/h"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="45" Margin="35,555,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="16"><Run Language="en-ca" Text="600                                     100bpm                             1h30m"/></TextBlock>
         <Image x:Name="statsMap" HorizontalAlignment="Left" Height="295" Margin="134,10,0,0" VerticalAlignment="Top" Width="287" Source="stats1.jpg"/>
-        <Button Content="MyStats" HorizontalAlignment="Left" Height="176" Margin="10,630,0,0" VerticalAlignment="Top" Width="103" Background="#FFFB6C2A" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="MyStats" HorizontalAlignment="Left" Height="102" Margin="10,630,0,0" VerticalAlignment="Top" Width="103" FontSize="18" FontWeight="Bold" Click="Button_Click"  Background="#FFFF6C00" BorderThickness="3"/>
     </Grid>
 
 
